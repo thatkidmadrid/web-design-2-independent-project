@@ -120,7 +120,7 @@ All pages will have basic navigation:
 ## Wireframes
 
 ### Home
-![Project Plan (1)](https://user-images.githubusercontent.com/6340290/140676059-3e400f36-9e15-4bf3-8156-95fc72f2db5a.png)
+![Project Plan (9)](https://user-images.githubusercontent.com/6340290/140826243-0c606e15-0fe1-463a-a257-912bc1cdb655.png)
 ![Project Plan (2)](https://user-images.githubusercontent.com/6340290/140676086-801362c8-0be4-4a73-861f-072ab91dfb82.png)
 
 ### Deck List
