@@ -1,95 +1,153 @@
----
-summary: 'Spend a few weeks writing the code for your independent project website—and make it amazing.'
-time: '10 hours'
-deliverables: '3 HTML files, 1 CSS file, images'
----
+# Project Plan
+## Define your project
+### What's the company/topic/brand?
+> The topic for my independent website project is Yu-Gi-Oh! Deck profiles
+### Why are you choosing this topic?
+> I have recently returned to collecting and playing the card game and I can think of ways to use web design techniques to meet the requirements of the project. 
+### What are the three pages? (Home, + 2 more)
+> - Home
+>   - Main navigation
+>   - Introductory text
+>   - Imagery and iconography to provide context and establish design language for the website
+>   - List of featured Decks, and Cards
+> - Deck List View
+>   - Grid of decks
+>     - Links to the Decks with descriptions
+> - Detailed Deck View
+>   - Grid of Cards that make up the Deck
+>   - Different states for the cards if they are limited, semi-limited, banned etc.
+> - Detailed Card View
+>   - Recreate layout of a Yu-Gi-Oh! Trading card using a flex container
+>   - Include a list of related cards
+## Where will you get the content & imagery?
+> I plan to use Unsplash, Creative Commons, and my own iconography and photography for the image content; I will write my own written content
 
-# Code your project
-
-## Overview
-
-**Throughout the rest of the term we’ll be working on the design of a complete independent website.** The subject matter independent project website is completely your choice.
-
-- *Fork this repository.*
-- Code the whole website you planned for your indepenent project.
-- Create a multi-page website: Home, +2 more pages.
-- *It should have real text content.*
-- It should be completely designed, with real images, real colours—and it should look amazing.
-- **Don’t steal images**—[use properly licensed images](https://cg.algonquindesign.ca/administration/stock.html). If the image requires that you credit the author use a [`humans.txt`](https://learn-the-web.algonquindesign.ca/topics/search-engine-optimization/#humanstxt) file. ([See an example `humans.txt` file](https://github.com/acgd-webdev-3/modularity-mindfulness/blob/gh-pages/humans.txt)).
-- *The website should obviously be fully responsive: working on screensizes from `320px` all the way to `~2500px`.*
-- **Run it through Markbot and make sure it passes all the checks.**
-
----
-
-## Teacher’s expectations
-
-This website is to prove that you—by yourself—can do everything we covered in class. Look back over all the assignments from the term, determine what kernel of knowledge they were trying to teach you, and see if you can implement it in this website.
-
-There should be a significant example of everything we’ve learned this term in this website. **Leave the impression that you’re confident with what we’ve learned and can apply everything.**
 
 ---
 
-## Markbot’s expectations
 
-### All HTML files
+## Content Inventory
 
-- `header`, `header nav`, `header nav li`, `header nav a`
-- `main`, `h2`, `div`, `img`, `footer`, `section` or `article`
-- `main.css`
-- A `color` or `background-color` hover state on the navigation
-- A unique `<title>` & `<h1>` for everything HTML page
-- Focus states on the navigation and links in the main body content
-- ARIA roles & proper accessibility & colour contrast
-- Fits within the [standard performance budget](https://learn-the-web.algonquindesign.ca/topics/performance-checklist/)
-- Passes all [accessibility checks](https://learn-the-web.algonquindesign.ca/topics/accessibility-checklist/) including skip links and ARIA landmark roles
-- *Google Fonts are optional—you may decided they have too much of a performance impact.*
-
-### CSS file
-
-CSS requirements are really open—just make sure the CSS is valid & indented properly.
-
-### Images
-
-- All images should be smushed, with a maximum file size of `250kB` and maximum dimensions of `2500px`
-- Proper favicons, `favicon.ico` & `favicon-196.png`
+Title | Type | URL | Images | Content | keywords
+-- | -- | -- | -- | -- | --
+Home | Landing page | /index.html | Banner, Deck icons, Card icons | Intro blurb, Featured Deck names, Featured Card names | Yugioh, Decks, Cards, Trading Cards
+Deck List | Menu | /decks/index.html | Banner, Deck icons | Deck Names, Deck Descriptions, Deck Sizes, ,Deck Status | Decks, Yugioh
+[Deck Name] Overview | Article | /decks/deck-01.html | Banner, Card Icons | Deck Name, Deck Description, Card Names | Deck, [Deck Name], Yugioh
+[Card Name] Details | Details | /cards/card-01.html | Card artwork, Card-component icons, Card icons, Deck Icons | Card Name, Card Description, Related Decks and Cards | Card, [Card Name], DetailsYugioh
 
 ---
 
-## Browser & accessibility testing
+## Sitemap
+```
+                          ┌────────┐
+                          │┼──────┼│
+                          ││      ││
+       ┌──────────────────┼│ HOME │┼ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┐
+       │                  ││      ││                     
+       │                  │┼──────┼│                    │
+       │                  └──── ───┘                     
+┌──────┼──────┐                │                        │
+│┼───────────┼│                                          
+││           ││                │                        │
+││ DECK LIST ││                                          
+││           ││                │                        │
+│┼───────────┼│                                          
+└──────┼──────┘                │                        │
+       │               ┌─────── ───────┐                 
+       │               │┼─────────────┼│                │
+       │               ││             ││                 
+       └───────────────┼│ [DECK NAME] ││                │
+                       ││             ││                 
+                       │┼─────────────┼│                │
+                       └───────┼───────┘                 
+                               │                ┌───────┼───────┐
+                               │                │┼─────────────┼│
+                               │                ││             ││
+                               └────────────────┼│ [CARD NAME] ││
+                                                ││             ││
+                                                │┼─────────────┼│
+                                                └───────────────┘
+```
 
-In class, week 14, we will be doing lots of peer testing—most of the website needs to be complete by then.
+With the links:
+```
+                          ┌────────┐
+                          │┼──────┼│
+    ┌─────┐               ││      ││
+    │Decks├───────────────┼│ HOME │┼ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┐
+    └──┬──┘               ││      ││                    │
+       │                  │┼──────┼│                    
+       │                  └──── ───┘                    │
+┌──────┼──────┐                │                       
+│┼───────────┼│                                         │
+││           ││  ┌─────────────┴──────────────┐         
+││ DECK LIST ││  │Featured Decks > [Deck Name]│         │
+││           ││  └───────────── ──────────────┘         
+│┼───────────┼│                │                        │
+└──────┼──────┘                                         
+       │               ┌───────┼───────┐                │
+       │               │┼─────────────┼│                
+  ┌────┴──────┐        ││             ││  ┌─────────────┴──────────────┐
+  │[Deck Name]├────────┼│ [DECK NAME] ││  │Featured Cards > [Card Name]│
+  └───────────┘        ││             ││  └─────────────┬──────────────┘
+                       │┼─────────────┼│                
+                       └─────── ───────┘                │
+                               │                ┌─────── ───────┐
+                               │                │┼─────────────┼│
+                         ┌─────┴─────┐          ││             ││
+                         │[Card Name]├──────────┼│ [CARD NAME] ││
+                         └───────────┘          ││             ││
+                                                │┼─────────────┼│
+                                                └───────────────┘
+```
+All pages will have basic navigation:
+- Home
+- All Decks
+- All Cards (if time permits)
+- Featured Decks
+  - Deck 01
+  - Deck 02 [disabled]
+  - Deck 03 [disabled]
+- Featured Cards
+  - Card 01
+  - Card 02 [disabled]
+  - Card 03 [disabled]
 
-Each person will be assigned a tool and will be required to test everybody’s websites.
-
-- [Accessibility testing](https://learn-the-web.algonquindesign.ca/courses/shared/accessibility-testing/)
-- [Browser testing](https://learn-the-web.algonquindesign.ca/courses/shared/browser-testing/)
-- [Performance testing](https://learn-the-web.algonquindesign.ca/courses/shared/performance-testing/)
 
 ---
 
-## Marking rubric
 
-Below is the rubric of expectations for this project. **You will be assigned a letter grade based on your standing within the rubric.**
+## Wireframes
 
-| | 0 points | 1 points | 2 points | 3 points |
-| --- | --- | --- | --- | --- |
-| **Knowledge** | Poor understanding of material | Partial understanding of material | Demonstrates full understanding of material | Demonstrates excellent understanding of material |
-| **Responsiveness** | Not responsive | Works on some screens | Responsive but with lots of awkwardness | Looks great on all screen sizes |
-| **Semantics** | Very little HTML | Basic HTML tags chosen | Good variety and appropriate HTML tags chosen | Excellent demonstration of HTML tags and correct use |
-| **Design** | Very little design | Basic design implemented | Cohesive design implementation | Excellent design implementation |
-| **Accessibility** | Not accessibile | Some accessibility but doesn’t work well with certain situations | Some minor accessibility problems | Works really well under all the standard accessibility tests |
-| **Performance** | Doesn’t come close to passing the performance budget requirements | One or two performance budget requirements are not met | Just passes the performance budget requirements | Surpasses the performance budget requirements |
-| **Home page** | Missing or incomplete | Started but severely lacking | Complete but with poor text or bad responsiveness—not quite perfect | Complete, amazing content, responsive, designed well—amazing |
-| **Page 2** | Missing or incomplete | Started but severely lacking | Complete but with poor text or bad responsiveness—not quite perfect | Complete, amazing content, responsive, good use of tables—fantastic |
-| **Page 3** | Missing or incomplete | Started but severely lacking | Complete but with poor text or bad responsiveness—not quite perfect | Complete, amazing content, responsive, logical—super |
-| **Code quality** | Missing or incomplete | Poorly done, rushed, no semantics, bad accessibility | Decent: semantics, indentation & accessibility | Perfect: semantics, indentation & accessibility |
-| **Git & commits** | Bad commit messages | Decent messages | Good messages | Excellent and descriptive commit messages |
-| **Markbot** | Not handed in with Markbot | — | — | Handed in with Markbot |
+### Home
+![Project Plan (1)](https://user-images.githubusercontent.com/6340290/140676059-3e400f36-9e15-4bf3-8156-95fc72f2db5a.png)
+![Project Plan (2)](https://user-images.githubusercontent.com/6340290/140676086-801362c8-0be4-4a73-861f-072ab91dfb82.png)
+
+### Deck List
+![Project Plan (3)](https://user-images.githubusercontent.com/6340290/140676126-805de14d-1368-44aa-abca-cf7751a219a7.png)
+![Project Plan (4)](https://user-images.githubusercontent.com/6340290/140676130-9fc91127-454a-4a6a-aabd-d08f8fb74766.png)
+
+### Deck Details
+![Project Plan (5)](https://user-images.githubusercontent.com/6340290/140676175-16322fda-c76b-48e7-8415-2b7d39514e33.png)
+![Project Plan (6)](https://user-images.githubusercontent.com/6340290/140676182-dd860961-2b92-4241-a830-b8619ab4215f.png)
+
+### Card Details
+*TBD*
+
 
 ---
 
-## Hand in
 
-Drop this folder into your Markbot application. Make sure to fix all the errors. And submit for grades using Markbot.
+## Logo
+### 256px
+*TBD*
+### 64px
+*TBD*
+### 32px
+*TBD*
 
-**When you submit to Progressinator, you’ll see a grey checkmark that shows the project was handed in.** You’ll still have to write a *Request for Grade* and the teacher will still be grading it personally.
+
+---
+
+
+## Moodboard
