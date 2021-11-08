@@ -139,18 +139,18 @@ All pages will have basic navigation:
 
 
 ## Logo
-### 256px
-*TBD*
-### 64px
-*TBD*
-### 32px
-*TBD*
 
+256px | 64px | 32px | 16px 
+-- | -- | -- | -- 
+![logo-256](https://user-images.githubusercontent.com/6340290/140814479-3f1e5d25-7962-4227-a5d9-a7147454c578.png) | ![logo-64](https://user-images.githubusercontent.com/6340290/140814491-3168cc85-81ed-4b59-87c7-34c9f9bfcc7f.png) | ![logo-32](https://user-images.githubusercontent.com/6340290/140814502-8f8473fe-a800-41e8-989a-ec48170ca50c.png) | ![logo-16](https://user-images.githubusercontent.com/6340290/140814523-c4d0f983-961c-4424-8278-7d0dc698b010.png)
+
+![Group 10 (2)](https://user-images.githubusercontent.com/6340290/140818209-727ae5eb-a677-4543-aa0a-3309c9576d32.png)
 
 ---
 
 
 ## Moodboard
-![Desktop - 2 (1)](https://user-images.githubusercontent.com/6340290/140705008-f4cb41d4-0100-490c-bfa3-983ce5cfa166.png)
+![Desktop - 2 (3)](https://user-images.githubusercontent.com/6340290/140823095-09993e0f-85d0-4fb4-8f84-c70ed3911203.png)
+
 
 
