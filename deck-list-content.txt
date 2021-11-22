@@ -1,0 +1,37 @@
+Draw Phase - Yu-Gi-Oh! Deck Profiles
+
+Home
+Decks
+Featured Decks
+- Deck 1
+- Deck 2
+- Deck 3
+Featured cards
+- Card 1
+- Card 2
+- Card 3
+
+Decks
+
+[List of Deck Icons]
+
+[Deck 1 icon]
+Deck 1 Title
+
+[Deck 2 icon]
+Deck 2 Title
+
+[Deck 3 icon]
+Deck 3 Title
+
+[Deck 4 icon]
+Deck 4 Title
+
+[Deck 5 icon]
+Deck 5 Title
+
+[Deck 6 icon]
+Deck 6 Title
+
+---
+Draw Phase - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
