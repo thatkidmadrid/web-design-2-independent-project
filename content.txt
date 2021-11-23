@@ -1,5 +1,7 @@
+[Title]
 Draw Phase - Yu-Gi-Oh! Deck Profiles
 
+[Navigation]
 Home
 Decks
 Featured Decks
@@ -10,7 +12,11 @@ Featured cards
 - Card 1
 - Card 2
 - Card 3
+[/Navigation]
 
+[Banner]
+Draw Phase!
+[/Banner]
 
 Welcome to Draw Phase!
 
@@ -44,5 +50,5 @@ Card 2
 [img]
 Card 3
 
----
+[Footer]
 Draw Phase - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
