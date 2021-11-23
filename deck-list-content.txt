@@ -1,5 +1,7 @@
+[Title]
 Draw Phase - Yu-Gi-Oh! Deck Profiles
 
+[Navigation]
 Home
 Decks
 Featured Decks
@@ -10,28 +12,37 @@ Featured cards
 - Card 1
 - Card 2
 - Card 3
+[/Navigation]
 
+[Banner]
 Decks
+[/Banner]
 
 [List of Deck Icons]
 
 [Deck 1 icon]
-Deck 1 Title
+Go-first Rogue Deck (40 + 15 extra)
+This deck is a strong deck for go-first strategies. It relies heavily on spells and extra deck monsters
 
 [Deck 2 icon]
-Deck 2 Title
+Go-second Rogue Deck (45)
+This deck is a strong deck for go-second strategies. It relies heavily on traps and main deck monsters
 
 [Deck 3 icon]
-Deck 3 Title
+Blue Eyes White Dragon Deck (45 + 10 extra)
+This deck is a successful deck for the Blue Eyes archetype. Maximize your offensive pressure with this deck!
 
 [Deck 4 icon]
-Deck 4 Title
+Fluffal/Frighfur Deck (40 + 10 extra)
+This deck shows of fusion monsters with the Frightfur Archetype. Banish your opponent's cards to maximize the effectiveness of this deck
 
 [Deck 5 icon]
-Deck 5 Title
+Harpie Lady Deck (40 + 15 extra)
+Return wind-type monsters from the field to your hand to remove your opponent's back-row.
 
 [Deck 6 icon]
-Deck 6 Title
+Exodia Deck (40) Banned
+This Deck relies on drawing the five pieces of Exodia to win the game!
 
----
+[Footer]
 Draw Phase - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
