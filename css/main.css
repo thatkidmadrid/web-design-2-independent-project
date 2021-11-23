@@ -7,3 +7,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+li.secondary {
+  margin-left: 1rem;
+}
