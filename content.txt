@@ -1,5 +1,5 @@
 [Title]
-Draw Phase - Yu-Gi-Oh! Deck Profiles
+Card Advantage - Yu-Gi-Oh! Deck Profiles
 
 [Navigation]
 Home
@@ -15,14 +15,14 @@ Featured cards
 [/Navigation]
 
 [Banner]
-Draw Phase!
+Card Advantage!
 [/Banner]
 
-Welcome to Draw Phase!
+Welcome to Card Advantage!
 
-Find the latest meta-relevant deck profiles for the Yu-Gi-Oh! trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move - Enter Draw Phase!
+Find the latest meta-relevant deck profiles for the Yu-Gi-Oh! trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move - Enter Card Advantage!
 
-Enter Draw Phase
+Enter Card Advantage
 
 ---
 
@@ -51,4 +51,4 @@ Card 2
 Card 3
 
 [Footer]
-Draw Phase - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
+Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021

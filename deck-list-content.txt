@@ -1,5 +1,5 @@
 [Title]
-Draw Phase - Yu-Gi-Oh! Deck Profiles
+Card Advantage - Yu-Gi-Oh! Deck Profiles
 
 [Navigation]
 Home
@@ -45,4 +45,4 @@ Exodia Deck (40) Banned
 This Deck relies on drawing the five pieces of Exodia to win the game!
 
 [Footer]
-Draw Phase - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
+Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
