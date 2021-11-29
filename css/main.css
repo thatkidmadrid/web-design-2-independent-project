@@ -2,7 +2,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 *,
@@ -45,8 +45,8 @@ a:focus {
 }
 
 h1, h2, h3 {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
 }
 
 /* Medium Screens */
