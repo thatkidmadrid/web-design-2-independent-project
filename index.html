@@ -6,50 +6,58 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon-196.png">
   </head>
   <body>
-
-    <nav id="navigation">
+    <nav class="skip-links">
       <ul>
-        <li class="current">
-          <a href="#">Home</a>
+        <li>
+          <a href="#nav">Skip to Main Navigation</a>
         </li>
         <li>
-          <a href="decks/">Decks</a>
-        </li>
-        <li>
-          <a href="#featured-decks">Featured Decks</a>
-        </li>
-        <li class="secondary">
-          <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Go-second Rogue Deck</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Harpie Lady Deck</a>
-        </li>
-        <li>
-          <a href="#featured-cards">Featured Cards</a>
-        </li>
-        <li class="secondary">
-          <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Harpie Lady</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Frightfur Bear</a>
+          <a href="#main">Skip to Main</a>
         </li>
       </ul>
     </nav>
-
-
-    <header class="banner home-banner">
+    <header class="banner home-banner" role="banner">
+      <nav id="nav" role="navigation">
+        <ul>
+          <li class="current">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="decks/">Decks</a>
+          </li>
+          <li>
+            <a href="#featured-decks">Featured Decks</a>
+          </li>
+          <li class="secondary">
+            <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+          </li>
+          <li class="secondary disabled">
+            <a href="#">Go-second Rogue Deck</a>
+          </li>
+          <li class="secondary disabled">
+            <a href="#">Harpie Lady Deck</a>
+          </li>
+          <li>
+            <a href="#featured-cards">Featured Cards</a>
+          </li>
+          <li class="secondary">
+            <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
+          </li>
+          <li class="secondary disabled">
+            <a href="#">Harpie Lady</a>
+          </li>
+          <li class="secondary disabled">
+            <a href="#">Frightfur Bear</a>
+          </li>
+        </ul>
+      </nav>
       <h1>Card Advantage!</h1>
     </header>
 
-    <main id="main">
+    <main id="main" role="main">
 
       <section class="intro">
         <h2 id="introduction" class="intro-heading">Welcome to Card Advantage!</h2>
