@@ -14,19 +14,32 @@ li.secondary {
 
 .deck-list {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr)); */
+  grid-template-columns: 1fr;
+}
 
+nav a:hover,
+nav a:focus {
+  background-color: gold;
 }
 
 /* Medium Screens */
+
 @media only screen and (min-width: 25em) {
+
   .deck-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+    grid-template-columns: repeat(4, 1fr);
   }
+
 }
 
 /* Large Screens */
+
 @media only screen and (min-width: 60em) {
+
+  .deck-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
 
 }
