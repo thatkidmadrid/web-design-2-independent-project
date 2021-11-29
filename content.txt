@@ -1,0 +1,126 @@
+HOMEPAGE/INTRO
+
+Social media has grown in popularity throughout the decade and has become a significant part of people’s lives. It is both an escape from reality and a way to connect with others in your life and around the world. With Instagram, Facebook, and Tiktok growing in popularity, they have brought upon positive experiences and questionable effects on its users. More so, users and scientists are questioning the impact social media has on adolescents’ mental, physical, and emotional well-being.
+
+During adolescence, there is an increase in social validation and peer evaluation. Social media introduces a new method and experience in indulging in these needs: constant online availability, oversharing personal information (permanently online), and peer feedback through likes, views, and comments.
+
+While it seems harmless, it is quite the opposite. Social media has increased the feeling of anxiety,  depression, and suicide among adolescents since the introduction of social media on mobile devices.
+
+Between 2012 and 2015, depression in boys increased by 21% and in girls by 50%.
+By 2015, 92% of teens and young adults owned a smartphone. But, as smartphone use increased, so did feelings of depression.
+A 2017 study of 8th to 12th graders found that high levels of depressive symptoms increased by 33% between 2010 and 2015. The suicide rate for girls in this age group increased by 65%.
+And it’s only gotten worse.
+Child suicide rates increased by up to 150%, and self-harm by girls ages 10 to 14 nearly tripled. These patterns point to social media.
+
+Sadly, it is an easy access for youth to experience negative behaviours and ideation. These behaviours include cyberbullying, social exclusion/online conflict, coming across risky content, experiencing comparison, oversharing, and wasting hours on social media. Is social media an escape from real life or is real life an escape from social media?
+
+--
+
+HISTORY OF SOCIAL
+As seen on this website: https://dewzilla.com/a-brief-history-of-social-media/#timeline-of-social-media
+1973: Talkomatic is created by Dave Wooly and Douglas Brown at the University of Illinois. It was a multi-user chat room with limited features.
+1997: Andrew Weinreich created SixDegrees.com.
+1999: Jerry Yang and David Filo established Yahoo! Messenger.
+1999: Microsoft creates MSN Messenger to offer new features like video calling.
+1999: Brad Fitzpatrick created LiveJournal; a platform for blogging.
+2001: SixDegrees.com shuts down.
+2001: Windows Messenger, the integrated version of MSN Messenger is out.
+2002: Friendster is born; a place for gaming and social networking. it’s a brainchild of Jonathan Abrams.
+2003: Reid Hoffman and some of his coworkers introduce LinkedIn.
+2003: Thomas Anderson founds Myspace.
+2003: Niklas Zennström and the Dane create Janus Friis Skype.
+2004: Mark Zuckerberg starts the legendary Facebook.
+2005: Aaron Swartz introduces Reddit.
+2006: Twitter is out. Jack Dorsey founds this platform.
+2006: Pavel Durov founds VK (VKontakte).
+2010: Ben Silbermann establishes Pinterest.
+2010: Kevin Systrom introduces Instagram; one of the most popular photo-sharing platforms ever is launched.
+2011: Evan Spiegel founds Snapchat.
+2011: Justin Kan introduces Twitch, a live-streaming platform for gamers.
+2012: Sean Rad launches Tinder, one of the most favorite dating apps ever.
+2012: Instagram is owned by Facebook for 1 billion dollars in cash and stock.
+2013: Larry Page and Sergey Brin who invented Google, invent Google Hangouts, too.
+2014: Alex Zhu and Luyu Yang invent a lip-syncing app called musical.ly.
+2015: Discord starts.
+2017: ByteDance owns Musical.ly for 1 billion dollars.
+2017: a platform for short video sharing called TikTok is out.
+
+--
+
+THE DESIGN
+
+Ephemeral content is content that is only available for a limited time and then vanishes. People’s priorities and consumption have shifted (more consumption, fewer priorities) so this works perfectly for the average user. Stories are becoming extremely popular for personal and business accounts. Looking at it with a wider lens, it’s feeding into the FOMO culture -- if a user isn’t frequently checking the app, they’ll miss out on important news or their idol’s posts, further promoting longer periods of interactions on their apps.
+Advertisements: social media had been bombarded with advertisements of all kinds, personalized for the user. Creepy enough, your devices listen to you while you speak, whether your app is open or not, detect keywords and personalize your ads according to them (ex. I said the word diaper and got a diaper advertisement; I don’t have a child). Quite frankly, it’s really annoying. You can’t always skip ads, on certain socials it interrupts too quickly or in the middle of a statement, and it prolongs the amount of time you spend on the application. Social media is turning into a retail and advertising platform than a creative one. It personalizes your feed, perfectly created by you, the user.
+Personalization of algorithm - uses your data to keep you wrapped up in the content you consume. It gets you addicted to endless content. Personalization has progressed to the point that these social media platforms can now recognize the things you prefer. They also offer you advertisements for similar products from several brands.
+Most recently discovered, Facebook algorithm and ads are specifically curated to initiate negative discussions as it is what promotes more interaction on the app. In other words, they initiate division, increasing discussion and dispute on their platforms, to upset you, for their personal gain (increase interaction on the platform). Moral outrage gets the most engagement (increases retweet rate by 17%). Data used to manipulate you.
+Social media can be a great thing, it gives you access to other opinions, news, cultures, people --whether like-minded or not, it’s an outlet for connection. But unfortunately, if you don’t buy the product, you are the product.
+Infinite scroll: feeding into endless content can put you in a “trance,”  innovation kept users looking at their phones for longer than necessary. An in-pocket slot machine. (https://www.bbc.com/news/technology-44640959)
+"You have a business model designed to engage you and get you to basically suck as much time out of your life as possible and then sell that attention to advertisers." - Mr. Parakilas
+Tiktok - the name and its relation is eerie - TikTok has doesn’t have a clock.
+Anonymity: it can be a good thing for some, but the majority of the time, anonymous people are provoking arguments, spreading hate, violence, etc online. This prevents social media companies from being able to hold these individuals accountable.
+Like button: Let’s say you post an image or tweet that garners a lot of likes. These likes ultimately translate into three of the most powerful reinforcers — attention, approval, and affection from other people. What happens as a result of all this reinforcement from likes? You post more, each time trying to out-perform your previous posts like count. In other words, the reinforcement from likes reinforces the behaviour of posting.
+Data storage: everything you’ve said, interacted with, sent, posted, liked, searched up, etc. is saved in the social media companies’ data storages. None of those embarrassing pictures or comments you posted are truly gone. You can download your own data. Snapchat has all of your data.
+Clickbait thumbnails: tiktok itself promote extreme and oversexualized thumbnails - an app that’s mainly used by teens.  32.5% of tiktok users are aged between 10 and 19. The age restriction is 12+, but there are 10 year olds using this app?
+Notifications: trains us to check our phones even when we don’t have notifications. It’s second nature to us all, picking up our phones just to consume some content; hoping someone will text us.
+Snapchat
+
+TRENDS/OUR BEHAVIOUR
+
+Social isolation/limited face-to-face connection
+Mental illness: depression, anxiety, body disorders
+Comparison - trends that only benefit those who are “attractive” and that have won the biological lottery
+ hourglass waist trend, symmetrical face trend, nice nose profile trend, baggy clothes vs bikini trend, “glow up” trend (for those who are attractive and align with eurocentric beauty standards).
+Users are often met with dismissive and sarcastic reactions from viewers, further promoting miscommunication, “cringe” reactions
+Comparison, insecurity; pretty privilege; egotistical behaviour; altering behaviour; mass narcissism; over-sexualization for attention (KIDS ARE SEXUALIZING THEMSELVES it’s SO DANGEROUS) (because of needing validation, like button, follower count, etc.)
+Attractive people become famous for being attractive and posing in front of a camera
+Subconscious “I should take this picture to post on IG!”
+Because of the “cringe” culture, children are growing up faster than they should. They don’t go through their awkward phase, they don’t transition from childhood to preteen years, they’re catapulted into their teen years, having to present older than they are. These are children. Why are we seeing this evident change if children shouldn’t be on social media?
+Doing a good deed? Capture it on camera with no consent from the other individual. See someone having a mental breakdown on the street? Film it and post it for your friends to laugh
+Short attention span because of these features
+Overwhelmed with information
+Humans are not designed to consume the amount of info we do on social media
+The algorithm makes us numb; one post can be about BLM, another can be a friend on a picnic, and so on. We become overwhelmed with the amount of negative news and shut down. No one can truly comprehend the number of followers and interactions with their accounts
+Oversharing
+What you post on the internet stays forever (this is what my partner and I do where we’re intimate, this is a gross thing that happened to me, etc.)
+Too much information and explicit content shared so casually
+Harmful trends/content
+Being exposed to harmful or oversexualized/graphic content can rewire the developing brain
+Oversexualized dances performed by minors (ex. WAP dance, hip-thrusting, twerking, all put in challenges).
+Why is the most followed person on Tiktok a minor?
+Misogynistic trends
+Trends about waist size, nose profile, face symmetry, light eyes, light skin, thick hair
+Misinformation and fake news - people believe everything they read.
+Tiktok trend - anyone can become famous
+Increases the content that regular people create
+Stop appreciating experiences for what they are
+Instead of talking to friends, you go on social media. Hanging with a friend? Take a picture or make a video for the internet! In the middle of a convo? Can’t respond, have to talk to my friend who just messaged me. Hanging with family? Nah, let’s all do our own thing while sitting in the same room.
+We watch other people “live their lives,” and when we get to do the same, we go on our phones. Real-life doesn’t provide us with the same serotonin boost as social media does.
+
+Looking at it as a whole, you may think “It’s so obvious that this is a problem!” but it isn’t. These app were designed to make you addicted, implement features to seem like they care about their users, but just enough so that their in control of your addiction.
+
+--
+
+SOLUTIONS
+
+What you can do
+Make your phone a “light phone”
+https://grant-collins.medium.com/turn-your-iphone-into-the-light-phone-23964a325f70
+Delete social media apps and only re-download them when you set a timer or say aloud that you will only spend 30 minutes on it. Block YouTube on your browser and only allow the website when you can say aloud the YouTuber’s name whose new video you want to watch.
+Parents: do not give youngchildren devices, you are directly feeding their addiction. Allow them to play as kids did without devices. Giving kids devices isn’t an easy fix to your problem, it opens a pathway to a lifelong addiction to the social media system.
+In their teens, if they choose to get social media, advise them of the risks, but don’t restrict them.
+Set limits on time spent on social media
+Be aware of how you’re using it and how it makes you feel
+Follow accounts that make you feel good
+Remind yourself that you’re seeing a highlight reel
+Unfollow those random people you don’t talk to! Just because they’re your best friend’s friend’s sibling, doesn’t mean you have to follow them.
+Know that you don’t have to post every interaction with a friend or family member, every outgoing, or anything on social media. Keep things private. The best memories come from being in the moment. Research states that taking too many pictures and videos will impact your brain to retain memories. So take a step back and enjoy the moment right in front of you.
+https://www.bbc.com/future/article/20150901-are-you-taking-too-many-pictures
+
+What companies can do
+Have accounts be verified by ID - if they spread hate, you know exactly who it is (unless the IP address can detect that)
+Harsher penalties on those spreading harmful messages to other users
+No kids should be on these platforms and no parents should profit from their kids - increase social media app age restriction (16+-year-olds)
+Remove the endless scroll or “load more” button - most websites have an end.
+Bigger companies - stop promoting in ads to use electronics for everything. Promote real-life interactions, make the advertisements more meaningful (immigrant families connecting over an app, etc.) - electronics should be for breaks and entertainment, they shouldn’t make up our whole day. It should be an accessory to the commercial, not the entire concept.
+Put warnings on all photoshopped pictures (ie. this picture was photoshopped and does not depict real life, idk) and highlight reels
+Stop doing unethical psychological tests on your users
