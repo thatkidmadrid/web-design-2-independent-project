@@ -39,31 +39,40 @@
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="decks/">Decks</a>
+          <a href="decks">Decks</a>
         </li>
-        <li>
-          <a href="#featured-decks">Featured Decks</a>
+        <li class="dropdown">
+          <!-- <a href="#featured-decks">Featured Decks</a> -->
+          <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</button> -->
+          <a href="#featured-decks" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</a>
+          <ul class="dropdown-list" id="deck-dropdown">
+            <li>
+              <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Go-second Rogue Deck</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Harpie Lady Deck</a>
+            </li>
+          </ul>
         </li>
-        <li class="secondary">
-          <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Go-second Rogue Deck</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Harpie Lady Deck</a>
-        </li>
-        <li>
-          <a href="#featured-cards">Featured Cards</a>
-        </li>
-        <li class="secondary">
-          <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Harpie Lady</a>
-        </li>
-        <li class="secondary disabled">
-          <a href="#">Frightfur Bear</a>
+
+        <li class="dropdown">
+          <!-- <a href="#featured-cards">Featured Cards</a> -->
+          <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</button> -->
+          <a href="#featured-cards" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</a>
+          <ul class="dropdown-list" id="card-dropdown">
+            <li>
+              <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Harpie Lady</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Frightfur Bear</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
@@ -75,7 +84,7 @@
 
     <section class="intro">
       <h2 id="introduction" class="intro-heading">Welcome to Card Advantage!</h2>
-      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the Yu-Gi-Oh! trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
+      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the <em>Yu-Gi-Oh!</em> trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
       <a class="button" href="#featured-decks"><span>Enter Card Advantage!</span></a>
     </section>
 
