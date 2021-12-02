@@ -62,6 +62,10 @@ nav#nav {
   vertical-align: middle;
 }
 
+.icon-label {
+  display: none;
+}
+
 .i-24 {
   height: 24px;
   width: 24px;
@@ -69,6 +73,22 @@ nav#nav {
 
 .icon-label {
   display: inline-block;
+}
+
+.banner {
+  background: #ccc;
+  height: 20em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-banner {
+  background-image: url("../images/cards-2400.jpg");
+}
+
+.decks-banner {
+  background-image: url("../images/decks-2400.jpg");
 }
 
 /* Medium Screens */
