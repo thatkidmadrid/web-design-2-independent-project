@@ -17,18 +17,114 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-li.secondary {
-  margin-left: 1rem;
-}
-
 .deck-list {
   display: grid;
   grid-template-columns: 1fr;
 }
 
+/* ============================ */
+/* ======= Navigation ========= */
+/* ============================ */
+
+nav {
+  padding: 0 1rem;
+  display: grid;
+  place-items: center;
+}
+
+/* nav > ul {
+  grid-auto-flow: column;
+  display: flex;
+} */
+
+nav > li {
+  margin: 0 .5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: .5em;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: end;
+}
+
+nav ul li {
+  padding: 0;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: gold;
+}
+
+.dropdown-label {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dropdown-label::after {
+  content: "";
+  border: .35rem solid transparent;
+  border-top-color: rgba(0, 0, 255, .45);
+  margin-left: .25em;
+  transform: translateY(.15em);
+}
+
+nav > ul > li a, nav > ul > li .dropdown-label {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: #5065c2;
+  font-size: 1.125rem;
+}
+
+nav > ul > li > a, ul > li > .dropdown-label {
+  padding: 1rem .5rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropdown-list {
+  border-radius: 4px;
+  padding: .5em 0;
+  min-width: 15em;
+  position: absolute;
+  top: calc(100% - .25rem);
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotateX(-90deg) translateX(-50%);
+  transform-origin: top center;
+  opacity: .3;
+  visibility: hidden;
+  transition: 280ms all 150ms ease-out;
+}
+
+/* stylelint-disable */
+
+/* .dropdown:hover .dropdown-list, .dropdown:focus-within .dropdown-list {
+  opacity: 1;
+  transform: rotateX(0) translateX(-50%);
+  visibility: visible;
+} */
+
+/* stylelint-enable */
+
+.dropdown .dropdown-list a {
+  background-color: #fff;
+  color: #5065c2;
+  display: block;
+  padding: .5em;
 }
 
 .skip-links {
@@ -185,8 +281,10 @@ main {
 
 nav#nav {
   z-index: 6;
-  height: 0;
-  overflow: hidden;
+  display: none;
+
+  /* height: 0; */
+  /* overflow: hidden; */
 }
 
 .icon {
@@ -336,8 +434,7 @@ footer {
   }
 
   nav#nav {
-    height: 100%;
-    overflow: visible;
+    display: block;
   }
 
   a#nav-btn {
