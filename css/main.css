@@ -51,6 +51,21 @@ nav img{
   font-weight: bold;
 }
 
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #fdf4ee;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+  }
+
+
 h1{
   font-family: Fredoka One, sans-serif;
   color: #58585a;
