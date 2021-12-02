@@ -23,7 +23,7 @@
     </li>
   </ul>
 
-  <header class="banner home-banner" role="banner">
+  <header class="banner home-banner" role="banner" aria-label="A photograph of Yu-Gi-Oh! cards spread across a table">
 
     <a id="nav-btn" href="#nav" class="btn">
       <i class="icon i-24">
@@ -35,8 +35,11 @@
     </a>
     <nav id="nav" role="navigation">
       <ul>
-        <li class="current">
-          <a href="#">Home</a>
+        <li class="current logo">
+          <a href="#">
+            <img src="favicon-196.png" alt="Card Advantage Logo">
+            <span class="icon-label">Home</span>
+          </a>
         </li>
         <li>
           <a href="decks">Decks</a>
@@ -44,13 +47,13 @@
         <li class="dropdown">
           <!-- <a href="#featured-decks">Featured Decks</a> -->
           <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</button> -->
-          <a href="#featured-decks" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</a>
+          <a href="#featured-decks" class="dropdown-label" aria-expanded="true" aria-controls="deck-dropdown">Featured Decks</a>
           <ul class="dropdown-list" id="deck-dropdown">
             <li>
-              <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+              <a href="decks/go-first-rogue.html">Go-first Deck</a>
             </li>
             <li class="disabled">
-              <a href="#">Go-second Rogue Deck</a>
+              <a href="#">Go-second Deck</a>
             </li>
             <li class="disabled">
               <a href="#">Harpie Lady Deck</a>
@@ -61,7 +64,7 @@
         <li class="dropdown">
           <!-- <a href="#featured-cards">Featured Cards</a> -->
           <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</button> -->
-          <a href="#featured-cards" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</a>
+          <a href="#featured-cards" class="dropdown-label" aria-expanded="true" aria-controls="card-dropdown">Featured Cards</a>
           <ul class="dropdown-list" id="card-dropdown">
             <li>
               <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
@@ -84,7 +87,7 @@
 
     <section class="intro">
       <h2 id="introduction" class="intro-heading">Welcome to Card Advantage!</h2>
-      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the <em>Yu-Gi-Oh!</em> trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
+      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the <em>Yu-Gi-Oh!</em> trading card game, as well as detailed looks at cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
       <a class="button" href="#featured-decks"><span>Enter Card Advantage!</span></a>
     </section>
 
@@ -99,7 +102,7 @@
             <i class="icon list-icon">
               <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-green"></use></svg>
             </i>
-            <span>Go-first Rogue Deck</span>
+            <span>Go-first Deck</span>
           </a>
         </li>
 
@@ -108,7 +111,7 @@
             <i class="icon list-icon">
               <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
             </i>
-            <span>Go-second Rogue Deck</span>
+            <span>Go-second Deck</span>
           </a>
         </li>
 
