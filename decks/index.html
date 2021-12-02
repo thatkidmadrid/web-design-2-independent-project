@@ -12,11 +12,11 @@
 
 
     <header class="banner decks-banner">
-      <h1>Decks</h1>
+
       <a id="nav-btn" href="#nav" class="btn">
         <i class="icon i-24">
           <svg viewBox="0 0 256 256">
-            <path d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
+            <path fill="#181846" d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
           </svg>
           <span class="icon-label">Navigation</span>
         </i>
@@ -26,35 +26,46 @@
           <li>
             <a href="../">Home</a>
           </li>
-          <li class="current">
-            <a href="#">Decks</a>
-          </li>
           <li>
-            <a href="#featured-decks">Featured Decks</a>
+            <a class="current" href="decks">Decks</a>
           </li>
-          <li class="secondary">
-            <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+          <li class="dropdown">
+            <!-- <a href="#featured-decks">Featured Decks</a> -->
+            <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</button> -->
+            <a href="#featured-decks" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</a>
+            <ul class="dropdown-list" id="deck-dropdown">
+              <li>
+                <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+              </li>
+              <li class="disabled">
+                <a href="#">Go-second Rogue Deck</a>
+              </li>
+              <li class="disabled">
+                <a href="#">Harpie Lady Deck</a>
+              </li>
+            </ul>
           </li>
-          <li class="secondary disabled">
-            <a href="#">Go-second Rogue Deck</a>
-          </li>
-          <li class="secondary disabled">
-            <a href="#">Harpie Lady Deck</a>
-          </li>
-          <li>
-            <a href="#featured-cards">Featured Cards</a>
-          </li>
-          <li class="secondary">
-            <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
-          </li>
-          <li class="secondary disabled">
-            <a href="#">Harpie Lady</a>
-          </li>
-          <li class="secondary disabled">
-            <a href="#">Frightfur Bear</a>
+
+          <li class="dropdown">
+            <!-- <a href="#featured-cards">Featured Cards</a> -->
+            <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</button> -->
+            <a href="#featured-cards" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</a>
+            <ul class="dropdown-list" id="card-dropdown">
+              <li>
+                <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
+              </li>
+              <li class="disabled">
+                <a href="#">Harpie Lady</a>
+              </li>
+              <li class="disabled">
+                <a href="#">Frightfur Bear</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
+
+      <h1>Decks</h1>
     </header>
 
     <main>
