@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: Proxima Nova, sans;
+  font-family: "Proxima Nova", sans;
   line-height: 1.5;
 }
 
@@ -12,4 +12,13 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
