@@ -22,3 +22,40 @@ img {
   display: block;
   width: 100%;
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+nav a:hover,
+nav a:focus {
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
