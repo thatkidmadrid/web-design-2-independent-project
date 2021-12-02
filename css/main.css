@@ -49,6 +49,28 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+nav#nav {
+  height: 0;
+  overflow: hidden;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat 50%;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.i-24 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon-label {
+  display: inline-block;
+}
+
 /* Medium Screens */
 
 @media only screen and (min-width: 25em) {
@@ -56,6 +78,15 @@ h1, h2, h3 {
   .deck-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav#nav {
+    height: 100%;
+    overflow: visible;
+  }
+
+  a#nav-btn {
+    display: none;
   }
 
 }
@@ -67,6 +98,11 @@ h1, h2, h3 {
   .deck-list {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .i-24 {
+    height: 18px;
+    width: 18px;
   }
 
 }
