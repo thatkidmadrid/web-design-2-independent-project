@@ -15,6 +15,8 @@ body {
   margin: 0;
   background-color: #fffbfa;
   font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .deck-list {
@@ -32,11 +34,6 @@ nav {
   place-items: center;
 }
 
-/* nav > ul {
-  grid-auto-flow: column;
-  display: flex;
-} */
-
 nav > li {
   margin: 0 .5rem;
 }
@@ -52,43 +49,86 @@ nav ul {
 nav > ul {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 nav ul li {
   padding: 0;
 }
 
+nav a {
+  background-color: rgba(0, 0, 0, .7);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2em;
+}
+
 nav a:hover,
 nav a:focus {
-  background-color: gold;
+  background-color: rgba(255, 255, 255, .9);
+  color: #181846;
+}
+
+nav > ul .logo {
+  align-self: flex-start;
+  margin-right: auto;
+  border-radius: 1em;
+}
+
+nav > ul .logo a {
+  background-color: transparent;
+  padding: .5em;
+  width: 6em;
+}
+
+.logo .icon-label {
+  display: none;
+}
+
+.logo a img {
+  display: block;
+  width: 100%;
 }
 
 .dropdown-label {
-  background-color: transparent;
   border: none;
   font-family: inherit;
   display: inline-flex;
   align-items: center;
+  transition: all 150ms ease-in-out;
+}
+
+.dropdown-label:hover, .dropdown-label:focus {
+  color: #181846;
 }
 
 .dropdown-label::after {
+  display: inline-block;
   content: "";
-  border: .35rem solid transparent;
-  border-top-color: rgba(0, 0, 255, .45);
+  border: .35em solid transparent;
+  border-top-color: rgba(255, 255, 255, .85);
   margin-left: .25em;
+  margin-top: .5em;
   transform: translateY(.15em);
+}
+
+.dropdown-label:hover::after, .dropdown-label:focus::after {
+  border-top-color: #181846;
 }
 
 nav > ul > li a, nav > ul > li .dropdown-label {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  color: #5065c2;
-  font-size: 1.125rem;
+  font-size: 1.125em;
+}
+
+nav > ul > li a:visited {
+  color: #fff;
 }
 
 nav > ul > li > a, ul > li > .dropdown-label {
-  padding: 1rem .5rem;
+  padding: 1em 1.5em;
 }
 
 .dropdown {
@@ -98,14 +138,13 @@ nav > ul > li > a, ul > li > .dropdown-label {
 .dropdown .dropdown-list {
   border-radius: 4px;
   padding: .5em 0;
-  min-width: 15em;
+  min-width: 12em;
   position: absolute;
   top: calc(100% - .25rem);
   left: 50%;
   transform: translateX(-50%);
-  transform: rotateX(-90deg) translateX(-50%);
   transform-origin: top center;
-  opacity: .3;
+  opacity: 0;
   visibility: hidden;
   transition: 280ms all 150ms ease-out;
 }
@@ -114,7 +153,7 @@ nav > ul > li > a, ul > li > .dropdown-label {
 
 /* .dropdown:hover .dropdown-list, .dropdown:focus-within .dropdown-list {
   opacity: 1;
-  transform: rotateX(0) translateX(-50%);
+  transform: translateX(-50%);
   visibility: visible;
 } */
 
@@ -140,6 +179,10 @@ nav > ul > li > a, ul > li > .dropdown-label {
 
 .skip-links a:focus {
   top: 0;
+  background: #fff;
+  padding: 1em;
+  border-radius: .5em;
+  z-index: 100;
 }
 
 a {
@@ -209,15 +252,20 @@ a#nav-btn > i span {
   margin-bottom: calc(1em - 4px);
 }
 
+.button span {
+  position: relative;
+}
+
 .button span::after {
   content: "";
   display: block;
   position: absolute;
-  opacity: 1;
+  opacity: 0;
   width: .5em;
   height: .5em;
-  top: 0;
-  background-color: #dfdf9a;
+  top: -.5em;
+  left: -.5em;
+  background-color: #c2f1ed;
   transform: rotate(45deg);
 }
 
@@ -225,13 +273,13 @@ a#nav-btn > i span {
   content: "";
   display: block;
   position: absolute;
-  opacity: 1;
+  opacity: 0;
   width: .4em;
   height: .4em;
-  bottom: 0;
-  right: 0;
+  bottom: -.5em;
+  right: -.5em;
   z-index: 14;
-  background-color: #dfdf9a;
+  background-color: #c2f1ed;
   transform: rotate(45deg);
 }
 
@@ -273,6 +321,12 @@ h1 {
     0    6px 0 #000,
     -3px  6px 0 #000,
     -3px  0   0 #000;
+}
+
+h1::first-letter {
+  font-size: 1.5em;
+  color: #d7f;
+  vertical-align: text-top;
 }
 
 main {
@@ -342,11 +396,11 @@ nav#nav {
 }
 
 .home-banner {
-  background-image: url("../images/cards-2400.jpg");
+  background-image: linear-gradient(-10deg, black, transparent, black), url("../images/cards-2400.jpg");
 }
 
 .decks-banner {
-  background-image: url("../images/decks-2400.jpg");
+  background-image: linear-gradient(-10deg, black, transparent, black), url("../images/decks-2400.jpg");
 }
 
 .item-list {
@@ -426,7 +480,7 @@ footer {
 
 /* Medium Screens */
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   .deck-list {
     display: grid;

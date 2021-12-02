@@ -27,7 +27,7 @@
             <a href="../">Home</a>
           </li>
           <li>
-            <a class="current" href="decks">Decks</a>
+            <a class="current" href="#">Decks</a>
           </li>
           <li class="dropdown">
             <!-- <a href="#featured-decks">Featured Decks</a> -->
@@ -35,7 +35,7 @@
             <a href="#featured-decks" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</a>
             <ul class="dropdown-list" id="deck-dropdown">
               <li>
-                <a href="decks/go-first-rogue.html">Go-first Rogue Deck</a>
+                <a href="go-first-rogue.html">Go-first Rogue Deck</a>
               </li>
               <li class="disabled">
                 <a href="#">Go-second Rogue Deck</a>
@@ -52,7 +52,7 @@
             <a href="#featured-cards" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</a>
             <ul class="dropdown-list" id="card-dropdown">
               <li>
-                <a href="cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
+                <a href="../cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
               </li>
               <li class="disabled">
                 <a href="#">Harpie Lady</a>
@@ -72,26 +72,32 @@
       <section class="intro">
         <h2 id="featured-decks">Featured Decks</h2>
 
-        <ul class="deck-list">
+        <ul class="deck-list item-list">
 
           <li>
-            <a href="go-first-rogue/">
-              <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <p>Go-first Rogue Deck</p>
+            <a href="go-first-rogue.html">
+              <i class="icon list-icon">
+                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+              </i>
+              <span>Go-first Rogue Deck</span>
             </a>
           </li>
 
           <li class="disabled">
             <a href="go-second-rogue.html">
-              <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <p>Go-second Rogue Deck</p>
+              <i class="icon list-icon">
+                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
+              </i>
+              <span>Go-second Rogue Deck</span>
             </a>
           </li>
 
           <li class="disabled">
-            <a href="harpie-lady/">
-              <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <p>Harpie Lady Deck</p>
+            <a href="harpie-lady.html">
+              <i class="icon list-icon">
+                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
+              </i>
+              <span>Harpie Lady Deck</span>
             </a>
           </li>
 
@@ -103,7 +109,17 @@
 
         <h2 id="other-decks">Other Decks</h2>
 
-        <ul class="deck-list">
+        <ul class="deck-list item-list">
+
+          <li>
+            <a href="go-first-rogue/">
+              <i class="icon list-icon">
+                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+              </i>
+              <span>Go-first Rogue Deck<em class="deck-count">(40 + 15 extra)</em></span>
+            </a>
+            <p class="deck-description">This deck is a strong deck for go-first strategies. It relies heavily on spells and extra deck monsters</p>
+          </li>
 
           <li>
             <a href="go-first-rogue/">
