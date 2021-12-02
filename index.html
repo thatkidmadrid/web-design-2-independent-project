@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="favicon-196.png">
 
   <link rel="author" type="text/plain" href="humans.txt">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400|Noto+Serif:400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700">
 </head>
 <body>
   <ul class="skip-links">
@@ -24,11 +24,11 @@
   </ul>
 
   <header class="banner home-banner" role="banner">
-    <h1>Card Advantage!</h1>
+
     <a id="nav-btn" href="#nav" class="btn">
       <i class="icon i-24">
         <svg viewBox="0 0 256 256">
-          <path d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
+          <path fill="#181846" d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
         </svg>
         <span class="icon-label">Navigation</span>
       </i>
@@ -67,40 +67,48 @@
         </li>
       </ul>
     </nav>
+
+    <h1>Card Advantage!</h1>
   </header>
 
   <main id="main" role="main">
 
     <section class="intro">
       <h2 id="introduction" class="intro-heading">Welcome to Card Advantage!</h2>
-      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the Yu-Gi-Oh! trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move - Enter Card Advantage!</p>
-      <a class="button" href="#featured-decks">Enter Card Advantage</a>
+      <p class="intro-blurb">Find the latest meta-relevant deck profiles for the Yu-Gi-Oh! trading card game, as well as detailed looks on cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
+      <a class="button" href="#featured-decks"><span>Enter Card Advantage!</span></a>
     </section>
 
     <section>
 
       <h2 id="featured-decks">Featured Decks</h2>
 
-      <ul>
+      <ul class="item-list">
 
         <li>
           <a href="decks/go-first-rogue.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Go-first Rogue Deck</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+            </i>
+            <span>Go-first Rogue Deck</span>
           </a>
         </li>
 
         <li class="disabled">
           <a href="decks/go-second-rogue.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Go-second Rogue Deck</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
+            </i>
+            <span>Go-second Rogue Deck</span>
           </a>
         </li>
 
         <li class="disabled">
           <a href="decks/harpie-lady.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Harpie Lady Deck</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
+            </i>
+            <span>Harpie Lady Deck</span>
           </a>
         </li>
 
@@ -112,26 +120,32 @@
 
       <h2 id="featured-cards">Featured Cards</h2>
 
-      <ul>
+      <ul class="item-list">
 
         <li>
           <a href="cards/blue-eyes-white-dragon.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Blue Eyes White Dragon</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#monster-card"></use></svg>
+            </i>
+            <span>Blue Eyes White Dragon</span>
           </a>
         </li>
 
         <li class="disabled">
           <a href="cards/harpie-lady.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Harpie Lady</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#monster-card"></use></svg>
+            </i>
+            <span>Harpie Lady</span>
           </a>
         </li>
 
         <li class="disabled">
           <a href="cards/frightfur-bear.html">
-            <img src="http://placehold.it/150x200" alt="placeholder deck icon">
-            <p>Frightfur Bear</p>
+            <i class="icon list-icon">
+              <svg><use xlink:href="images/card-advantage-icons.svg#monster-card"></use></svg>
+            </i>
+            <span>Frightfur Bear</span>
           </a>
         </li>
 
@@ -142,7 +156,7 @@
   </main>
 
   <footer role="contentinfo">
-    <p>Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021</p>
+    <small class="copyright">Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021</small>
   </footer>
 
 </body>
