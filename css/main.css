@@ -16,6 +16,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #111;
 }
 
 img {
@@ -23,38 +24,78 @@ img {
   width: 100%;
 }
 
-/*nav ul {
+header {
+  color: #fff;
+  background-color: #000;
+  background-image: url(../"wavebanner.png");
+  height: 20em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  border-radius: 6px;
-  width: 2.5rem;
-  height: 2.5rem;
+nav {
+
 }
 
-nav a:hover,
-nav a:focus {
-}*/
-
-article {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem;
+h1, h2, h3 {
+  color: #fff;
 }
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+.buttons {
+  color: #fff;
+  text-decoration: none;
+}
+
+.open-button {
+  padding: .5rem;
+  border: .2rem solid #fff;
+  font-size: 1.125rem;
+}
+
+.closed-button {
+  padding: .5rem;
+  font-size: 1.125rem;
+  background-color: #f9013f;
+}
+
+p {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
 footer {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: #000;
+}
+
+.contentinfo {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.type-of-work {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
 }
