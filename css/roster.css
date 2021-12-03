@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f82b47;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #f82b47;
+  margin: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fad1a6;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+nav li:first-child {
+  padding-left: 0rem;
+}
+
+.sergei {
+  color: #000;
+}
+
+.sergei .nickname {
+  font-size: 45pt;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: -1rem;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  transform: skewY(-20deg);
+  font-weight: 900;
+  color: #f82b47;
+}
+
+.sergei .name {
+  font-size: 20pt;
+  padding-right: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: #fad1a6;
+  transform: skewY(-20deg);
+}
+.sergei img {
+  width: 28rem;
+  width: 100%;
+  margin-bottom: 0;
+  transform: skewY(-20deg);
+  padding-top: 0;
+}
+
+.sergei .number {
+  color: #000;
+  transform: skewY(20);
+  font-size: 140pt;
+  margin-bottom: -11.5rem;
+  margin-top: -2rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+.playerinfo {
+  background-color: #fad1a6;
+  padding-top: 7rem;
+  margin-top: -10rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+.vitals li {
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  color: #f82b47;
+}
+
+.vitals li strong {
+  color: #000;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.stats {
+  text-align: right;
+  margin-top: 0;
+  color: #f82b47;
+}
+
+.statvalue {
+  color: #000;
+}
+
+.statheader {
+   margin-bottom: 0;
+   text-align: right;
+   color: #f82b47;
+   font-weight: 700;
+ }
+
+.banner .blocktype {
+  color: #fad1a6;
+  font-weight: 900;
+  font-size: 95pt;
+  line-height: 1;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: -1.5rem;
+}
