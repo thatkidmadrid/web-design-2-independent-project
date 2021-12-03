@@ -22,17 +22,28 @@
     </nav>
   </header>
   <section class="banner">
-    <h1 class="blocktype">MEET</h1>
+
+    <!-- <h1 class="blocktype">MEET</h1>
     <h1 class="blocktype">THE</h1>
     <h1 class="blocktype">REVOL</h1>
-    <h1 class="blocktype">UTION</h1>
+    <h1 class="blocktype">UTION</h1> -->
+    
+    <!-- You can only have 1 <h1> on your page - you can use spans instead to do what you were trying -->
+    <!-- also, try to keep all of your html written in normal case, and use css to change them to uppercase -->
+    <h1 class="uppercase"><span class="blocktype">Meet</span> <span class="blocktype">the</span> <span class="blocktype">Revol</span><span class="blocktype">ution</span></h1>
   </section>
 
   <section class="sergei">
     <h2 class="number">47</h2>
     <h1 class="nickname">THE CAPTAIN</h1>
     <h3 class="name">SERGEI TAKEYOURPANTSOV</h3>
-    <img src="content/sergei-clip.gif" alt="sergei's highlights">
+    <div class="media-clip">
+      <!-- animated gifs are not great, but you can apply this clipping frame to a video too to prevent it from being skewed -->
+      <!-- ideally you will want more of a square aspect ratio to accommodate the clipping, but you can see how I used overflow to zoom in on the gif and force it to be like a 1:1 aspect ratio -->
+      <img src="content/sergei-clip.gif" alt="sergei's highlights">
+      
+    </div>
+
     <div class="playerinfo">
       <ul class="vitals">
         <li>HEIGHT: <strong>5'9"</strong></li>
