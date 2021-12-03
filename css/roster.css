@@ -52,10 +52,15 @@ nav li:first-child {
 
 .sergei {
   color: #000;
+  /* new css properties */
+  /* define a relative positioning system */
+  position: relative;
+  top: 4em;
 }
 
 .sergei .nickname {
-  font-size: 45pt;
+  /* font-size: 45pt; */
+  font-size: 12.9vw;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-bottom: -1rem;
@@ -65,10 +70,13 @@ nav li:first-child {
   transform: skewY(-20deg);
   font-weight: 900;
   color: #f82b47;
+  /* new css properties */
+  position: relative;
 }
 
 .sergei .name {
-  font-size: 20pt;
+  /* font-size: 20pt; */
+  font-size: 5.7vw;
   padding-right: 1rem;
   padding-left: 2.5rem;
   margin-bottom: 0;
@@ -78,29 +86,42 @@ nav li:first-child {
   align-items: center;
   color: #fad1a6;
   transform: skewY(-20deg);
+  /* new css properties */
+  position: relative;
 }
+
 .sergei img {
-  width: 28rem;
-  width: 100%;
-  margin-bottom: 0;
-  transform: skewY(-20deg);
-  padding-top: 0;
+  /* width: 28rem; */
+  /* width: 100%; */
+  /* margin-bottom: 0; */
+  /* transform: skewY(-20deg); */
+  /* padding-top: 0; */
+
+  /* new css properties */
+  /* a height of 100vw will force a square container */
+  height: 100vw;
 }
 
 .sergei .number {
   color: #000;
-  transform: skewY(20);
-  font-size: 140pt;
-  margin-bottom: -11.5rem;
-  margin-top: -2rem;
+  /* transform: skewY(20); */
+  /* font-size: 140pt; */
+  font-size: 45vw;
+  /* margin-bottom: -11.5rem; */
+  /* margin-top: -2rem; */
   font-weight: 900;
   width: 100%;
+  /* new css properties */
+  position: absolute;
+  top: -70vw;
 }
 
 .playerinfo {
   background-color: #fad1a6;
-  padding-top: 7rem;
-  margin-top: -10rem;
+  /* padding-top: 7rem; */
+  padding-top: 12vw;
+  /* margin-top: -10rem; */
+  margin-top: -54vw;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 2rem;
@@ -142,9 +163,32 @@ nav li:first-child {
 .banner .blocktype {
   color: #fad1a6;
   font-weight: 900;
-  font-size: 95pt;
-  line-height: 1;
+  /* font-size: 95pt; */
+  font-size: 28.5vw;
+  /* line-height: 1; */
+  line-height: 28.5vw;
   padding: 0;
   margin-top: 0;
-  margin-bottom: -1.5rem;
+  /* margin-bottom: -1.5rem; */
+  margin-bottom: -5vw;
+
+  /* new css property */
+  /* force each span onto its own line */
+  display:block;
+}
+
+/* New selectors */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+.media-clip {
+  /* Use a clipping mask instead of skewing the media */
+  position: relative;
+  top: -17.6vw;
+  clip-path: polygon(0 36%, 100% 0, 100% 64%, 0% 100%);
+  background-color: #ccc;
+  height: 99.3vw;
 }
