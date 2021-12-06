@@ -231,3 +231,29 @@ body > section {
 .illustration {
   margin: 1rem 0;
 }
+
+.footer-logo {
+  width: auto;
+  height: auto;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-footer {
+  background-color: #41376e;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  font-size: .8rem;
+  margin: 0 0 1rem;
+}

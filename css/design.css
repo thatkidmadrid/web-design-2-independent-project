@@ -195,7 +195,7 @@ body > section {
 }
 
 .wrapper {
-  background-image: url("../images/teenager-doomscrolling.jpg"); width: 100%; min-height: 700px;
+  background-image: url("../images/girl-looking-at-phone.jpg"); width: 100%; min-height: 700px;
   grid-area: banner;
   background-position: center;
   background-size: cover;
@@ -228,4 +228,29 @@ body > section {
   color: #a181da;
 }
 
-CREATE CARD NEXT
+.footer-logo {
+  width: auto;
+  height: auto;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-footer {
+  background-color: #41376e;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  font-size: .8rem;
+  margin: 0 0 1rem;
+}
