@@ -1,0 +1,4 @@
+.dropdown:hover .dropdown-list, .dropdown:focus-within .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+}
