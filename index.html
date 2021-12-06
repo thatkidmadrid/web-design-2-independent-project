@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-ca" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Card Advantage - Yu-Gi-Oh! Deck Profiles</title>
   <meta name="description" content="A landing page for the Card Advantage! website">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="/css/focus-within.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
-
   <link rel="author" type="text/plain" href="humans.txt">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700">
 </head>
+
 <body>
   <ul class="skip-links">
     <li>
@@ -33,20 +34,23 @@
         <span class="icon-label">Navigation</span>
       </i>
     </a>
-    <nav id="nav" role="navigation">
-      <ul>
-        <li class="current logo">
+
+    <nav id="nav" role="navigation" class="topnav">
+
+      <ul class="nav-list">
+
+        <li class="logo">
           <a href="#">
             <img src="favicon-196.png" alt="Card Advantage Logo">
             <span class="icon-label">Home</span>
           </a>
         </li>
+
         <li>
           <a href="decks">Decks</a>
         </li>
+
         <li class="dropdown">
-          <!-- <a href="#featured-decks">Featured Decks</a> -->
-          <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</button> -->
           <a href="#featured-decks" class="dropdown-label" aria-expanded="true" aria-controls="deck-dropdown">Featured Decks</a>
           <ul class="dropdown-list" id="deck-dropdown">
             <li>
@@ -62,8 +66,6 @@
         </li>
 
         <li class="dropdown">
-          <!-- <a href="#featured-cards">Featured Cards</a> -->
-          <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</button> -->
           <a href="#featured-cards" class="dropdown-label" aria-expanded="true" aria-controls="card-dropdown">Featured Cards</a>
           <ul class="dropdown-list" id="card-dropdown">
             <li>
@@ -77,7 +79,9 @@
             </li>
           </ul>
         </li>
+
       </ul>
+
     </nav>
 
     <h1>Card Advantage!</h1>
@@ -88,14 +92,14 @@
     <section class="intro">
       <h2 id="introduction" class="intro-heading">Welcome to Card Advantage!</h2>
       <p class="intro-blurb">Find the latest meta-relevant deck profiles for the <em>Yu-Gi-Oh!</em> trading card game, as well as detailed looks at cards, potential card combos and other details to bring your game to the next level. It's your move!</p>
-      <a class="button" href="#featured-decks"><span>Enter Card Advantage!</span></a>
+      <a class="button home-cta" href="#featured-decks"><span>Enter Card Advantage!</span></a>
     </section>
 
-    <section>
+    <section class="area-1">
 
       <h2 id="featured-decks">Featured Decks</h2>
 
-      <ul class="item-list">
+      <ul class="item-list simple-list">
 
         <li>
           <a href="decks/go-first-rogue.html">
@@ -107,18 +111,18 @@
         </li>
 
         <li class="disabled">
-          <a href="decks/go-second-rogue.html">
+          <a href="#">
             <i class="icon list-icon">
-              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
+              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon"></use></svg>
             </i>
             <span>Go-second Deck</span>
           </a>
         </li>
 
         <li class="disabled">
-          <a href="decks/harpie-lady.html">
+          <a href="#">
             <i class="icon list-icon">
-              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
+              <svg><use xlink:href="images/card-advantage-icons.svg#deck-icon"></use></svg>
             </i>
             <span>Harpie Lady Deck</span>
           </a>
@@ -128,11 +132,11 @@
 
     </section>
 
-    <section>
+    <section class="area-2">
 
       <h2 id="featured-cards">Featured Cards</h2>
 
-      <ul class="item-list">
+      <ul class="item-list simple-list">
 
         <li>
           <a href="cards/blue-eyes-white-dragon.html">
@@ -144,18 +148,18 @@
         </li>
 
         <li class="disabled">
-          <a href="cards/harpie-lady.html">
+          <a href="#">
             <i class="icon list-icon">
-              <svg><use xlink:href="images/card-advantage-icons.svg#monster-card"></use></svg>
+              <svg><use xlink:href="images/card-advantage-icons.svg#card-front-icon"></use></svg>
             </i>
             <span>Harpie Lady</span>
           </a>
         </li>
 
         <li class="disabled">
-          <a href="cards/frightfur-bear.html">
+          <a href="#">
             <i class="icon list-icon">
-              <svg><use xlink:href="images/card-advantage-icons.svg#monster-card"></use></svg>
+              <svg><use xlink:href="images/card-advantage-icons.svg#card-front-icon"></use></svg>
             </i>
             <span>Frightfur Bear</span>
           </a>
@@ -172,4 +176,5 @@
   </footer>
 
 </body>
+
 </html>
