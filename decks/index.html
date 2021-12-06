@@ -1,181 +1,204 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Decks - Yu-Gi-Oh! Deck Profiles</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="../css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../favicon.ico">
-  </head>
-  <body>
 
+<head>
+  <meta charset="utf-8">
+  <title>Decks - Card Advantage!</title>
+  <meta name="description" content="Decks page for the Card Advantage! website">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/focus-within.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" href="../favicon-196.png">
+  <link rel="author" type="text/plain" href="../humans.txt">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700">
+</head>
 
+<body>
+  <ul class="skip-links">
+    <li>
+      <a href="#nav">Skip to Main Navigation</a>
+    </li>
+    <li>
+      <a href="#main">Skip to Main</a>
+    </li>
+  </ul>
 
-    <header class="banner decks-banner">
+  <header class="banner decks-banner" role="banner" aria-label="A photograph of Yu-Gi-Oh! cards spread across a table">
 
-      <a id="nav-btn" href="#nav" class="btn">
-        <i class="icon i-24">
-          <svg viewBox="0 0 256 256">
-            <path fill="#181846" d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
-          </svg>
-          <span class="icon-label">Navigation</span>
-        </i>
-      </a>
-      <nav id="nav" role="navigation">
-        <ul>
-          <li>
-            <a href="../">Home</a>
-          </li>
-          <li>
-            <a class="current" href="#">Decks</a>
-          </li>
-          <li class="dropdown">
-            <!-- <a href="#featured-decks">Featured Decks</a> -->
-            <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</button> -->
-            <a href="#featured-decks" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Decks</a>
-            <ul class="dropdown-list" id="deck-dropdown">
-              <li>
-                <a href="go-first-rogue.html">Go-first Rogue Deck</a>
-              </li>
-              <li class="disabled">
-                <a href="#">Go-second Rogue Deck</a>
-              </li>
-              <li class="disabled">
-                <a href="#">Harpie Lady Deck</a>
-              </li>
-            </ul>
-          </li>
+    <a id="nav-btn" href="#nav" class="btn">
+      <i class="icon i-24">
+        <svg viewBox="0 0 256 256">
+          <path fill="#181846" d="M8.5 27h239v35.7H8.5V27zm0 83.6h239v35.8H8.5v-35.8zm0 83.6h239V230H8.5v-35.8z"></path>
+        </svg>
+        <span class="icon-label">Navigation</span>
+      </i>
+    </a>
 
-          <li class="dropdown">
-            <!-- <a href="#featured-cards">Featured Cards</a> -->
-            <!-- <button type="button" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</button> -->
-            <a href="#featured-cards" class="dropdown-label" aria-expanded="false" aria-controls="deck-dropdown">Featured Cards</a>
-            <ul class="dropdown-list" id="card-dropdown">
-              <li>
-                <a href="../cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
-              </li>
-              <li class="disabled">
-                <a href="#">Harpie Lady</a>
-              </li>
-              <li class="disabled">
-                <a href="#">Frightfur Bear</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+    <nav id="nav" role="navigation" class="topnav">
 
-      <h1>Decks</h1>
-    </header>
+      <ul class="nav-list">
 
-    <main>
-      <section class="intro">
-        <h2 id="featured-decks">Featured Decks</h2>
+        <li class="logo">
+          <a href="../">
+            <img src="../favicon-196.png" alt="Card Advantage Logo">
+            <span class="icon-label">Home</span>
+          </a>
+        </li>
 
-        <ul class="deck-list item-list">
+        <li>
+          <a href="#" class="current">Decks</a>
+        </li>
 
-          <li>
-            <a href="go-first-rogue.html">
-              <i class="icon list-icon">
-                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
-              </i>
-              <span>Go-first Rogue Deck</span>
-            </a>
-          </li>
+        <li class="dropdown">
+          <a href="#featured-decks" class="dropdown-label" aria-expanded="true" aria-controls="deck-dropdown">Featured Decks</a>
+          <ul class="dropdown-list" id="deck-dropdown">
+            <li>
+              <a href="../decks/go-first-rogue.html">Go-first Deck</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Go-second Deck</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Harpie Lady Deck</a>
+            </li>
+          </ul>
+        </li>
 
-          <li class="disabled">
-            <a href="go-second-rogue.html">
-              <i class="icon list-icon">
-                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
-              </i>
-              <span>Go-second Rogue Deck</span>
-            </a>
-          </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-label" aria-expanded="true" aria-controls="card-dropdown">Featured Cards</a>
+          <ul class="dropdown-list" id="card-dropdown">
+            <li>
+              <a href="../cards/blue-eyes-white-dragon.html">Blue Eyes White Dragon</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Harpie Lady</a>
+            </li>
+            <li class="disabled">
+              <a href="#">Frightfur Bear</a>
+            </li>
+          </ul>
+        </li>
 
-          <li class="disabled">
-            <a href="harpie-lady.html">
-              <i class="icon list-icon">
-                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
-              </i>
-              <span>Harpie Lady Deck</span>
-            </a>
-          </li>
+      </ul>
 
-        </ul>
+    </nav>
 
-      </section>
+    <h1>Decks</h1>
+  </header>
 
-      <section class="deck-list-section">
+  <main>
+    <section class="intro">
+      <h2 id="featured-decks" class="intro-heading">Featured Decks</h2>
 
-        <h2 id="other-decks">Other Decks</h2>
+      <ul class="deck-list item-list">
 
-        <ul class="deck-list item-list">
+        <li>
+          <a href="go-first-rogue.html">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+            </i>
+            <span class="deck-name">Go-first Rogue Deck</span>
+          </a>
+        </li>
 
-          <li>
-            <a href="go-first-rogue/">
-              <i class="icon list-icon">
-                <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
-              </i>
-              <span>Go-first Rogue Deck<em class="deck-count">(40 + 15 extra)</em></span>
-            </a>
-            <p class="deck-description">This deck is a strong deck for go-first strategies. It relies heavily on spells and extra deck monsters</p>
-          </li>
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-blue"></use></svg>
+            </i>
+            <span class="deck-name">Go-second Rogue Deck</span>
+          </a>
+        </li>
 
-          <li>
-            <a href="go-first-rogue/">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Go-first Rogue Deck <em class="deck-count">(40 + 15 extra)</em></span>
-            </a>
-            <p class="deck-description">This deck is a strong deck for go-first strategies. It relies heavily on spells and extra deck monsters</p>
-          </li>
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
+            </i>
+            <span class="deck-name">Harpie Lady Deck</span>
+          </a>
+        </li>
 
-          <li>
-            <a href="#">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Go-second Rogue Deck <em class="deck-count">(40 + 15 extra)</em></span>
-            </a>
-            <p class="deck-description">This deck is a strong deck for go-second strategies. It relies heavily on traps and main deck monsters</p>
-          </li>
+      </ul>
 
-          <li>
-            <a href="#">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Blue Eyes White Dragon Deck <em class="deck-count">(45 + 10 extra)</em></span>
-            </a>
-            <p class="deck-description">This deck is a successful deck for the Blue Eyes archetype. Maximize your offensive pressure with this deck!</p>
-          </li>
+    </section>
 
-          <li>
-            <a href="#">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Fluffal/Frighfur Deck <em class="deck-count">(40 + 10 extra)</em></span>
-            </a>
-            <p class="deck-description">This deck shows of fusion monsters with the Frightfur Archetype. Banish your opponent's cards to maximize the effectiveness of this deck</p>
-          </li>
+    <section class="deck-list-section">
 
-          <li>
-            <a href="#">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Harpie Lady Deck <em class="deck-count">(40 + 15 extra)</em></span>
-            </a>
-            <p class="deck-description">Return wind-type monsters from the field to your hand to remove your opponent's back-row.</p>
-          </li>
+      <h2 id="other-decks">Other Decks</h2>
 
-          <li class="banned">
-            <a href="#">
-              <img class="deck-icon" src="http://placehold.it/150x200" alt="placeholder deck icon">
-              <span class="deck-name">Exodia Deck<em class="deck-count">(40)</em></span>
-            </a>
-            <p class="deck-description">This Deck relies on drawing the five pieces of Exodia to win the game!</p>
-          </li>
+      <ul class="deck-list item-list">
 
-        </ul>
-      </section>
+        <li>
+          <a href="go-first-rogue/">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+            </i>
+            <span class="deck-name">Go-first Rogue Deck <em class="deck-count">(40 + 15 extra)</em></span>
+          </a>
+          <p class="deck-description">This deck is a strong deck for go-first strategies. It relies heavily on spells and extra deck monsters</p>
+        </li>
 
-    </main>
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-green"></use></svg>
+            </i>
+            <span class="deck-name">Go-second Rogue Deck <em class="deck-count">(40 + 15 extra)</em></span>
+          </a>
+          <p class="deck-description">This deck is a strong deck for go-second strategies. It relies heavily on traps and main deck monsters</p>
+        </li>
 
-    <footer>
-      Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021
-    </footer>
-  </body>
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon"></use></svg>
+            </i>
+            <span class="deck-name">Blue Eyes White Dragon Deck <em class="deck-count">(45 + 10 extra)</em></span>
+          </a>
+          <p class="deck-description">This deck is a successful deck for the Blue Eyes archetype. Maximize your offensive pressure with this deck!</p>
+        </li>
+
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon"></use></svg>
+            </i>
+            <span class="deck-name">Fluffal/Frighfur Deck <em class="deck-count">(40 + 10 extra)</em></span>
+          </a>
+          <p class="deck-description">This deck shows of fusion monsters with the Frightfur Archetype. Banish your opponent's cards to maximize the effectiveness of this deck</p>
+        </li>
+
+        <li class="disabled">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon-pink"></use></svg>
+            </i>
+            <span class="deck-name">Harpie Lady Deck <em class="deck-count">(40 + 15 extra)</em></span>
+          </a>
+          <p class="deck-description">Return wind-type monsters from the field to your hand to remove your opponent's back-row.</p>
+        </li>
+
+        <li class="disabled banned">
+          <a href="#">
+            <i class="icon list-icon">
+              <svg><use xlink:href="../images/card-advantage-icons.svg#deck-icon"></use></svg>
+            </i>
+            <span class="deck-name">Exodia Deck<em class="deck-count">(40)</em></span>
+          </a>
+          <p class="deck-description">This Deck relies on drawing the five pieces of Exodia to win the game!</p>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <small class="copyright">Card Advantage - Yu-Gi-Oh! Deck Profiles ©thatkidmadrid 2021</small>
+  </footer>
+
+</body>
+
 </html>
