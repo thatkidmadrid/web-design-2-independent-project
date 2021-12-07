@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.skip {
+  visibility: hidden;
+}
+
 h1 {
   font-family: 'Bungee', cursive;
   font-size: 3rem;
@@ -69,6 +73,7 @@ body {
 
  img {
   width: 100%;
+  padding-bottom:.5rem;
  }
 
 .header-logo {
@@ -89,7 +94,6 @@ nav {
 nav > ul {
   grid-area: banner;
   list-style-type: none;
-
 
   display: flex;
   flex-direction: column;
@@ -113,7 +117,7 @@ nav a:hover {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
+/*the features*/
 .cards li {
   color: white;
   margin: auto;
@@ -139,6 +143,52 @@ nav a:hover {
 
 .cards h3, p {
   margin: 0;
+}
+
+/*h3 card headers*/
+.cards h3 {
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.cards-2 h3 {
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+
+/*trends/behaviour*/
+.cards-2 li {
+  color: white;
+  margin: auto;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #050255;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-2 ul {
+  padding: 0;
+
+  display: grid;
+  grid-template columns: 1fr;
+  grid-template-areas:
+    "col1";
+  gap: 1rem;
+}
+
+.cards-2 h3, p {
+  margin: 0;
+}
+
+li p a {
+  color: #a181da;
 }
 
 /*top button*/
@@ -237,6 +287,10 @@ body > section {
   text-align: center;
   line-height: 1.2;
   color: #a181da;
+}
+
+.summary {
+  margin-bottom: 1rem;
 }
 
 .footer-logo {

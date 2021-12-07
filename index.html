@@ -10,6 +10,13 @@
 </head>
 
 <body>
+  <div class="skip">
+    <a href="#Navigation">Skip to navigation</a>
+    <a href="#About">Skip to about content</a>
+    <a href="#Adolescence">Skip to adolescence content</a>
+    <a href="#Stats">Skip to statistics content</a>
+  </div>
+
 <section class="wrapper">
   <header role="banner">
     <a href="index.html" class="hover-logo">
@@ -17,10 +24,10 @@
     </a>
     <div class="banner-text">
       <h1>BREAK THE CYCLE</h1>
-      <p>The fine line between digital connection and mental illness.</p>
-      <a class="button" href="#about">Get Started</a>
+      <p>The fine line between digital connection and mental illness. ONLY MADE MOBILE AND DIDNT RESIZE IMAGES :)</p>
+      <a class="button" href="#about" aria-label="Jump to the About Section">Get Started</a>
     </div>
-    <nav>
+    <nav role="navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="the-design.html">The Design</a></li>
@@ -32,22 +39,21 @@
 <section class="wrapper-2">
   <main role="main">
     <section id="about">
-      <h2>ABOUT</h2>
-      <img src="images/man-holding-phone.jpg" alt="Phone homepage lights a dark room"/>
-      <p>Social media has grown in popularity throughout the decade and has become a significant part of people’s lives. It is both an escape from reality and a way to connect with others in your life and around the world.</p>
-      <img src="images/social-media-icons.png" alt="Tiktok, Instagram, and Facebook icons">
+      <h2 class="about">ABOUT</h2>
+      <img class="about" src="images/man-holding-phone.jpg" alt="Phone homepage lights a dark room"/>
+      <p class="abt-description">Social media has grown in popularity throughout the decade and has become a significant part of people’s lives. It is both an escape from reality and a way to connect with others in your life and around the world.</p>
+      <img src="images/social-media-icons.png" alt="Tiktok, Instagram, and Facebook icons" role="presentation">
       <p>With Instagram, Facebook, and Tiktok growing in popularity, they have brought upon positive experiences and questionable effects on its users. Moreso, users and scientists are questioning the impact social media has on adolescents’ mental, physical, and emotional well-being.</p>
     </section>
     <section>
       <h3>Adolescence</h3>
-
       <img src="images/teens-looking-at-phones.jpg" alt="three teens lying on their stomachs looking at their phones">
       <p>During adolescence, there is an increase in social validation and peer evaluation. Social media introduces a new method and experience in indulging in these needs: constant online availability, oversharing personal information (permanently online), and peer feedback through likes, views, and comments.</p>
       <p>While it seems harmless, it is quite the opposite. Social media has <emphasis>increased</emphasis> the feeling of anxiety, depression, and suicide among adolescents since the introduction of social media on mobile devices.</p>
     </section>
     <section class="stats">
       <h3>The Stats</h3>
-      <img src="images/group-on-phones.jpg" alt="one male looking at the camera while the people surrounding him are on their phones">
+      <img src="images/group-on-phones.jpg" alt="one male looking at the camera while the people surrounding him are on their phones" role="presentation">
       <p class="under-percent">Between 2012 and 2015, there was a</p>
       <h2 class="percents">21%</h2>
       <p class="under-percent">increase in depression in boys and</p>
@@ -75,7 +81,7 @@
   </main>
 
   <section class="wrapper-footer">
-    <footer>
+    <footer role="contentinfo">
       <a href="index.html" class="hover-logo">
         <img class="footer-logo" src="images/32-px-logo.png" alt="broken speech bubble logo">
       </a>
