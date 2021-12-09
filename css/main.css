@@ -281,7 +281,7 @@ footer a {
 
 @media only screen and (min-width: 38em) {
 
-  .type-of-work section {
+  section.type-of-work {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -326,7 +326,7 @@ footer a {
 
 @media only screen and (min-width: 60em) {
 
-  section {
+  section, section.type-of-work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
