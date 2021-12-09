@@ -35,7 +35,6 @@ p {
   color: #fff;
 }
 
-/*skip-links style------------------------------------------------------------------------------------------------------------*/
 .skip-links {
   margin: 0;
   padding: 0;
@@ -54,31 +53,30 @@ p {
   z-index: 100;
 }
 
-/*banner style------------------------------------------------------------------------------------------------------------*/
 header {
   background-color: #000;
-  background-image: url(../images/wave-banner.png);
+  background-image: url("../images/wave-banner.png");
   text-align: center;
-  padding: 0rem 0rem 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1rem solid #000;
 }
 
 .about-banner {
   background-color: #000;
-  background-image: url(../images/workstation-image.jpg);
+  background-image: url("../images/workstation-image.jpg");
   background-position: 50% 0;
   text-align: center;
-  padding: 0rem 0rem 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1rem solid #000;
   min-height: 300px;
 }
 
 .portfolio-banner {
   background-color: #000;
-  background-image: url(../images/file-portfolio.jpg);
+  background-image: url("../images/file-portfolio.jpg");
   background-position: 50% 0;
   text-align: center;
-  padding: 0rem 0rem 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1rem solid #000;
   min-height: 300px;
 }
@@ -90,7 +88,6 @@ header {
   max-width: 300px;
   margin-top: .5em;
   margin-bottom: .5em;
-
 }
 
 h1 {
@@ -108,7 +105,7 @@ h1 {
 }
 
 .secondary-header {
-  margin: 0 0 1rem ;
+  margin: 0 0 1rem;
   font-size: 2.5rem;
   line-height: 1;
 }
@@ -132,7 +129,7 @@ h1 {
   border: 3px solid #f6bb0a;
   display: inline-block;
   margin: 1em;
-  transition-duration: 0.6s;
+  transition-duration: .6s;
   cursor: pointer;
   font-weight: bold;
 }
@@ -141,10 +138,9 @@ h1 {
   background-color: #f6bb0a;
 }
 
-/*navigation style--------------------------------------------------------------------------------------------------------*/
 nav {
   background-color: #000;
-  padding: 1em 0em 1em 0em;
+  padding: 1em 0;
 }
 
 .icon svg {
@@ -158,7 +154,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  margin:0 1rem;
+  margin: 0 1rem;
   padding: 0;
   justify-content: flex-end;
 }
@@ -174,13 +170,13 @@ nav a {
 }
 
 nav a :hover {
-  transition-duration: 0.6s;
+  transition-duration: .6s;
   color: #f9013f;
 }
 
 .nav-logo {
   display: flex;
-  margin:0 1rem;
+  margin: 0 1rem;
   padding: 0;
   width: 30px;
   justify-content: flex-start;
@@ -188,10 +184,9 @@ nav a :hover {
   top: .5em;
 }
 
-/*main style--------------------------------------------------------------------------------------------------------*/
-main  {
-  padding: 0rem 2rem;
-  margin: 1rem 0rem;
+main {
+  padding: 0 2rem;
+  margin: 1rem 0;
 }
 
 .blurb {
@@ -249,11 +244,10 @@ h5 {
   margin: 0;
 }
 
-/*footer style--------------------------------------------------------------------------------------------------------*/
 footer {
   background-color: #000;
   text-align: center;
-  font-size: 0.8em;
+  font-size: .8em;
 }
 
 .socialmedia svg {
@@ -278,11 +272,11 @@ footer {
 footer a {
   color: #fff;
 }
+
 .copyrightinfo p {
   color: #fff;
 }
 
-/* media queries--------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 38em) {
 
   section .type-of-work {
@@ -297,15 +291,15 @@ footer a {
     max-width: 250px;
     height: auto;
     float: left;
-    margin: 0 1em 0
+    margin: 0 1em;
   }
 
   article p {
-  margin-bottom: auto;
+    margin-bottom: auto;
   }
 
   .portfolio {
-    max-width: auto;
+    max-width: 100%;
     margin: auto;
   }
 
@@ -314,16 +308,12 @@ footer a {
     height: auto;
     object-fit: cover;
     margin: auto;
-    padding: auto;
   }
 
   .portfolio article {
     display: flex;
     flex-wrap: wrap;
-    justify-content: none;
-    flex-direction: none;
     position: relative;
-    background-clip: border-box;
   }
 
 }
@@ -341,11 +331,11 @@ footer a {
     max-width: 100px;
     height: auto;
     float: left;
-    margin: 0 1em 0
+    margin: 0 1em;
   }
 
   .contactinfo {
-  max-width: 25%;
+    max-width: 25%;
   }
 
 }
