@@ -31,7 +31,7 @@
 
 # TEAM
 
-Designer & Developer: Christian Madrid <get thatkidmadrid.ca>
+Designer & Developer: Christian Madrid <get@thatkidmadrid.ca>
 Site: https://thatkidmadrid.ca
 GitHub: https://github.com/thatkidmadrid
 Twitter:  thatkidmadrid
