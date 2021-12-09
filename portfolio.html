@@ -8,33 +8,47 @@
 </head>
 
 <body>
-  <header role="banner">
-    <img src="images/file-portfolio.jpg" alt="">
-    <h1>Portfolio</h1>
-
-    <nav role="navigation">
+  <header role="banner" class="portfolio-banner">
+    <div class="nav-logo">
+      <img src="favicon-196.png" alt="">
+    </div>
+    <nav id="nav" role="navigation" class="nav">
       <ul>
         <li>
-          <svg></svg>
-          <a href="index.html">Home</a>
+          <a href="index.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#homepage"></use></svg>
+            </i>
+            <span>Home</span>
+          </a>
         </li>
 
         <li>
-          <svg></svg>
-          <a href="about.html">About</a>
+          <a href="about.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#about"></use></svg>
+            </i>
+            <span>About</span>
+          </a>
         </li>
 
         <li>
-          <svg></svg>
-          <a href="portfolio.html">Portfolio</a>
+          <a href="portfolio.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#portfolio"></use></svg>
+            </i>
+            <span>Portfolio</span>
+          </a>
         </li>
       </ul>
     </nav>
+
+    <h1>Portfolio</h1>
   </header>
 
   <main>
     <div class="blurb">
-      We take pride in our work and how conduct business these are some of the many projects we have worked on.
+      <p>We take pride in our work and how conduct business these are some of the many projects we have worked on.</p>
     </div>
     <section class="portfolio">
       <article class="ps5-campaign">
@@ -44,7 +58,7 @@
         <img src="images/portfolio-guggo.jpg" alt="">
       </article>
       <article class="infographic">
-        <img src="images/portfolio-infographics.jpg" alt="">
+        <img src="images/portfolio-infographic.jpg" alt="">
       </article>
       <article class="akashi-illustration">
         <img src="images/portfolio-akashi.jpg" alt="">
@@ -57,12 +71,16 @@
       <ul>
         <li>
           <a href="#">
-            <svg><use xlink:href="images/navigation.svg#Instagram"></use></svg>
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#instagram"></use></svg>
+            </i>
           </a>
         </li>
         <li>
           <a href="#">
-            <svg><use xlink:href="images/navigation.svg#Linkedin"></use></svg>
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#linkedin"></use></svg>
+            </i>
           </a>
         </li>
       </ul>

@@ -7,34 +7,51 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header role="banner">
-    <img src="images/workstation-image.jpg" alt="">
-    <h1>About</h1>
-
-    <nav role="navigation">
+  <header role="banner" class="about-banner">
+    <div class="nav-logo">
+      <img src="favicon-196.png" alt="">
+    </div>
+    <nav id="nav" role="navigation" class="nav">
       <ul>
         <li>
-          <svg></svg>
-          <a href="index.html">Home</a>
+          <a href="index.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#homepage"></use></svg>
+            </i>
+            <span>Home</span>
+          </a>
         </li>
 
         <li>
-          <svg></svg>
-          <a href="about.html">About</a>
+          <a href="about.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#about"></use></svg>
+            </i>
+            <span>About</span>
+          </a>
         </li>
 
         <li>
-          <svg></svg>
-          <a href="portfolio.html">Portfolio</a>
+          <a href="portfolio.html">
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#portfolio"></use></svg>
+            </i>
+            <span>Portfolio</span>
+          </a>
         </li>
       </ul>
     </nav>
+
+    <h1>About</h1>
   </header>
 
   <main role="main">
     <h2>About Your Designer</h2>
-    <p>The founder and only employee to date of RookaMan Designs is Caj (“Kai”) Wehrstedt, currently a graphic design student in his second year of the Algonquin Graphic Design Program. Don’t be fooled of the student status as Caj started client illustration and graphic design work when he was just in his senior year of high school having already 3+ years of freelance experience on his belt.</p>
-    <p>You will find him to be passionate, hardworking, and utmost energetic about interacting with you about anything and everything design related.</p>
+    <div class="profile-image">
+      <img src="images/profile-image.jpg" alt="">
+    </div>
+    <p class="blurb">The founder and only employee to date of RookaMan Designs is Caj (“Kai”) Wehrstedt, currently a graphic design student in his second year of the Algonquin Graphic Design Program. Don’t be fooled of the student status as Caj started client illustration and graphic design work when he was just in his senior year of high school having already 3+ years of freelance experience on his belt.</p>
+    <p class="blurb">You will find him to be passionate, hardworking, and utmost energetic about interacting with you about anything and everything design related.</p>
 
     <h2>Type of Work</h2>
     <p>At RookaMan Designs we take on a wide variety of different projects so we can best suit your needs and create a solution for your project. Our services include and are not limited to:</p>
@@ -67,9 +84,15 @@
     <p>Don’t be afraid to get in contact us, we don’t bite!</p>
 
     <div class="contactinfo">
-      <p>Caj S. Wehrstedt</p>
-      <p>Phone: (XXX) XXX-XXXX</p>
-      <p>Email: wehr0010@algonquinlive.com</p>
+      <h4 class="designer-contact">Caj S. Wehrstedt</h4>
+      <div class="phone">
+        <h5>Phone:</h5>
+        <p>(XXX) XXX-XXXX</p>
+      </div>
+      <div class="email">
+        <h5>Email:</h5>
+        <p>wehr0010@algonquinlive.com</p>
+      </div>
     </div>
   </main>
 
@@ -78,12 +101,16 @@
       <ul>
         <li>
           <a href="#">
-            <svg><use xlink:href="images/navigation.svg#Instagram"></use></svg>
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#instagram"></use></svg>
+            </i>
           </a>
         </li>
         <li>
           <a href="#">
-            <svg><use xlink:href="images/navigation.svg#Linkedin"></use></svg>
+            <i class="icon">
+              <svg><use xlink:href="images/icons.svg#linkedin"></use></svg>
+            </i>
           </a>
         </li>
       </ul>
