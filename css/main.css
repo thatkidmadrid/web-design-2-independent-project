@@ -170,8 +170,8 @@ nav a {
   fill: currentColor;
 }
 
-nav a :hover,
-nav a :focus {
+nav a:hover,
+nav a:focus {
   transition-duration: .6s;
   color: #f9013f;
 }
@@ -281,7 +281,7 @@ footer a {
 
 @media only screen and (min-width: 38em) {
 
-  .type-of-work section {
+  section .type-of-work {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -316,10 +316,6 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-  }
-
-  .contactinfo {
-    max-width: 50%;
   }
 
 }
