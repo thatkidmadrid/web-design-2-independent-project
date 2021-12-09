@@ -144,14 +144,6 @@ nav {
   padding: 1em 0;
 }
 
-.icon svg {
-  position: relative;
-  height: 1rem;
-  width: 1rem;
-  color: #fff;
-  fill: currentColor;
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -168,11 +160,20 @@ nav a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  padding: .5em 0;
+}
+
+.icon svg {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  fill: currentColor;
 }
 
 nav a :hover {
   transition-duration: .6s;
-  color: #f9013f;
+  background-color: #f9013f;
+
 }
 
 .nav-logo {
@@ -182,7 +183,7 @@ nav a :hover {
   width: 30px;
   justify-content: flex-start;
   position: absolute;
-  top: .5em;
+  top: 1em;
 }
 
 main {
@@ -252,8 +253,8 @@ footer {
 }
 
 .socialmedia svg {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 40px;
+  height: 40px;
   margin-top: 1em;
   fill: currentColor;
 }
