@@ -281,7 +281,7 @@ footer a {
 
 @media only screen and (min-width: 38em) {
 
-  section .type-of-work {
+  .type-of-work section  {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -316,6 +316,10 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+  }
+
+  .contactinfo {
+    max-width: 50%;
   }
 
 }
