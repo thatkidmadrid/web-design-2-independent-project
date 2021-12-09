@@ -170,7 +170,8 @@ nav a {
   fill: currentColor;
 }
 
-nav a :hover {
+nav a :hover,
+nav a :focus {
   transition-duration: .6s;
   color: #f9013f;
 }
