@@ -16,9 +16,113 @@ html {
 
 body {
   margin: 0;
+  position: relative;
+  display: block;
+  background-color: #222;
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+/*skip-links style------------------------------------------------------------------------------------------------------------*/
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+  background: #fff;
+  padding: 1em;
+  z-index: 100;
+}
+
+/*banner style------------------------------------------------------------------------------------------------------------*/
+header {
+  background-color: #000;
+  background-image: url(../images/wave-banner.png);
+}
+
+/*navigation style--------------------------------------------------------------------------------------------------------*/
+nav {
+  background-color: #000;
+  padding: 1em 0em 1em 0em;
+}
+
+.icon svg {
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+  fill: currentColor;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin:0 1rem;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a :hover {
+  color: #f9013f;
+}
+
+.nav-logo {
+  display: flex;
+  margin:0 1rem;
+  padding: 0;
+  width: 30px;
+  justify-content: flex-start;
+  position: absolute;
+  top: .5em;
+}
+
+/*main style--------------------------------------------------------------------------------------------------------*/
+main  {
+  padding: 0rem 2rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+}
+
+/*footer style--------------------------------------------------------------------------------------------------------*/
+footer {
+  background-color: #000;
+}
+
+.socialmedia ul {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+.contentinfo p {
+  align-items: center;
+  color: #fff;
+  font-size: 1.125rem
 }
