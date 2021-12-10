@@ -51,14 +51,10 @@ nav img {
   font-weight: bold;
 }
 
-.nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #fdf4ee;
-  display: block;
-  margin: auto;
-  transition: .6s;
+a:hover,
+a:focus {
+  background-color: #d2d3d4;
+  border-color: #fff;
 }
 
 .care p {
