@@ -12,17 +12,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <ol class="skip-links">
+
+  <ul class="skip-links">
     <li>
       <a href="#nav">skip to navigation</a>
     </li>
     <li>
-      <a href="#main">skip to main</a>
+      <a href="#main">Jump to main content</a>
     </li>
-  </ol>
+  </ul>
 
   <header role="banner">
-    <nav role="navigation">
+    <nav id="nav" role="navigation">
       <a href="index.html"><img src="images/logo.svg" alt="graphic of marshmallow"></a>
       <div class="nav-links">
         <ul>
@@ -34,47 +35,48 @@
       </div>
     </nav>
   </header>
-  <section class="banner">
-    <h1>Pet Marshmallow</h1>
-    <p>Like a Pet Rock<br>Except Far More Cuddly</p>
-  </section>
-
-  <main role="main">
-    <ol>
-      <li>
-        <h2>Adopt a Pet Marshmallow</h2>
-        <img src="images/adopt.jpg" alt="Image of Coloured Marshmallows">
-        <ul>
-          <li>
-            <a class="btn" href="adopt.html" aria-label="link to adopt page">
-              ADOPT
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h2>How to Care for a Marshmallow</h2>
-        <img src="images/care.jpg" alt="pictire of roasted marshmallow">
-        <ul>
-          <li>
-            <a class="btn" href="care.html" aria-label="link to care page">
-              CARE
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h2>About Us and Contact Info</h2>
-        <img src="images/about-us-main.jpg" alt="images of marshmallow houses">
-        <ul>
-          <li>
-            <a class="btn" href="about.html" aria-label="link to about and contact">
-              ABOUT
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ol>
+  <main role="main" id="main" tabindex="0">
+    <section class="banner">
+      <h1>Pet Marshmallow</h1>
+      <p>Like a Pet Rock<br>Except Far More Cuddly</p>
+    </section>
+    <article>
+      <ol>
+        <li>
+          <h2>Adopt a Pet Marshmallow</h2>
+          <img src="images/adopt.jpg" alt="Image of Coloured Marshmallows">
+          <ul>
+            <li>
+              <a class="btn" href="adopt.html" aria-label="link to adopt page">
+                ADOPT
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>How to Care for a Marshmallow</h2>
+          <img src="images/care.jpg" alt="pictire of roasted marshmallow">
+          <ul>
+            <li>
+              <a class="btn" href="care.html" aria-label="link to care page">
+                CARE
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>About Us and Contact Info</h2>
+          <img src="images/about-us-main.jpg" alt="images of marshmallow houses">
+          <ul>
+            <li>
+              <a class="btn" href="about.html" aria-label="link to about and contact">
+                ABOUT
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </article>
   </main>
   <footer role="contentinfo">
     <div class="footer">
