@@ -283,7 +283,7 @@ footer p {
     flex-direction: column;
   }
 
-  .cards-2 {
-    flex-grow: 1;
+  .cards-2 li, .cards li {
+    height: 100%;
   }
 }
