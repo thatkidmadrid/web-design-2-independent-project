@@ -1,13 +1,5 @@
-/*color codes
-#41376e
-#a181da
-#050255
-#438b92
-#a10232
-*/
 html {
   box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Inter', sans-serif;
   color: #fff;
@@ -15,8 +7,37 @@ html {
   scroll-behavior: smooth;
 }
 
-.skip {
-  visibility: hidden;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+}
+
+a:focus {
+  outline: 4px solid #a181da;
+}
+
+.skip-links {
+  grid-area: banner;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+  background-color: #050255;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
 }
 
 h1 {
@@ -38,17 +59,16 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-div {
+.banner-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin: auto;
 }
 
  h2 {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 2.5rem;
-  padding: 0 0 .5rem;
+  padding: 0 0 .5rem 1.5rem;
   margin: 0;
   line-height: 1;
  }
@@ -56,10 +76,11 @@ div {
 body {
   background-color: black;
   display: grid;
-  grid-template columns: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "banner"
     "col1"
+    "coll1"
     "footer";
   gap: 1rem;
   min-width: 300px;
@@ -67,22 +88,24 @@ body {
   padding: 0;
 }
 
-.banner {
-  grid-area: banner;
-}
-
  img {
   width: 100%;
-  padding-bottom:.5rem;
  }
 
 .header-logo {
   width: 55px;
   transition: all .5s ease-in-out;
+  left: 1rem;
+  top: .7rem;
 }
 
 .header-logo, .banner-text, nav {
   position: absolute;
+}
+
+
+.hover-logo:hover img {
+  transform: scale(1.1);
 }
 
 nav {
@@ -91,9 +114,10 @@ nav {
   top: .7rem;
 }
 
-nav > ul {
+nav ul {
   grid-area: banner;
   list-style-type: none;
+
 
   display: flex;
   flex-direction: column;
@@ -114,9 +138,6 @@ nav a:hover {
   color: #438b92;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 /*the features*/
 .cards li {
   color: white;
@@ -158,7 +179,6 @@ nav a:hover {
   line-height: 1;
 }
 
-
 /*trends/behaviour*/
 .cards-2 li {
   color: white;
@@ -191,76 +211,6 @@ li p a {
   color: #a181da;
 }
 
-/*top button*/
-.button {
-  background-color: #a10232;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  height: 40px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
-  transition: ease-out .2s;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button:hover {
-  background-color: #438b92;
-  transform: scale(1.1);
-}
-
-/*bottom two buttons*/
-ol {
-  margin-left: -3rem;
-}
-
-ol li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 1.2rem;
-}
-
-ol li a {
-  padding: 0 3rem;
-}
-
-.button-2 {
-  background-color: #a10232;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  height: 40px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
-  transition: ease-out .2s;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button-2:hover {
-  background-color: #438b92;
-  transform: scale(1.1);
-}
-
-.hover-logo:hover img {
-  transform: scale(1.1);
-}
-
-.stats h2 {
-  text-align: center;
-}
-
 body section {
   padding: 0 .7rem;
 }
@@ -278,16 +228,14 @@ body > section {
 
 .wrapper-2 {
   background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
-  grid-area: col1;
   background-position: left;
+  grid-area: col1;
 }
 
-.good-quote {
-  font-size: 2rem;
-  text-align: center;
-  line-height: 1.2;
-  color: #a181da;
+.wrapper-3, {
+  grid-area: coll1;
 }
+
 
 .summary {
   margin-bottom: 1rem;
@@ -298,11 +246,9 @@ body > section {
   height: auto;
   align-items: center;
   margin-top: 1rem;
-  margin-bottom: .5rem;
 }
 
 footer {
-  grid-area: footer;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,12 +256,13 @@ footer {
 }
 
 .wrapper-footer {
-  background-color: #41376e;
+  background-color: #070b38;
   padding: 0;
   margin: 0;
+  grid-area: footer;
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: .7rem;
   margin: 0 0 1rem;
 }

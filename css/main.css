@@ -23,13 +23,29 @@ body {
   background-color: black;
 }
 
-.skip {
-  grid-area: banner;
-  visibilty: hidden;
+a:focus {
+  outline: 4px solid #a181da;
 }
 
-.skip:hover {
-  visibility: visible;
+.skip-links {
+  grid-area: banner;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+  background-color: #050255;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
 }
 
 h1 {
@@ -51,7 +67,7 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.skip, .banner-text {
+.banner-text {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -80,10 +96,6 @@ body {
   min-width: 300px;
   margin: 0;
   padding: 0;
-}
-
-.banner {
-  grid-area: banner;
 }
 
  img {
@@ -204,10 +216,6 @@ ol li a {
 
 body section {
   padding: 0 1.5rem;
-}
-
-body > section {
-  padding-top: 1.5rem;
 }
 
 .wrapper {

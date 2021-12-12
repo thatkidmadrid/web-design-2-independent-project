@@ -9,12 +9,20 @@
 </head>
 
 <body>
-  <div class="skip">
-    <a href="#The-Features">Skip to features section</a>
-    <a href="#Behaviours">Skip to behaviours section</a>
-  </div>
-<section class="wrapper">
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#features">Skip to features content</a></li>
+    <li><a href="#behaviours">Skip to behaviours content</a></li>
+  </ul>
+<div class="wrapper">
+  <header role="banner" id="top">
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="the-design.html">The Design</a></li>
+        <li><a href="the-solution.html">The Solution</a></li>
+      </ul>
+    </nav>
     <a href="index.html" class="hover-logo">
       <img class="header-logo" src="images/64-px-logo.png" alt="broken speech bubble logo" aria-label="Jump to homepage">
     </a>
@@ -22,17 +30,10 @@
       <h1>THE DESIGN</h1>
       <p>How social media apps are designed to keep you addicted.</p>
     </div>
-    <nav role="navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="the-design.html">The Design</a></li>
-        <li><a href="the-solution.html">The Solution</a></li>
-      </ul>
-    </nav>
   </header>
-</section>
-<section class="wrapper-2">
-  <h2>THE FEATURES</h2>
+</div>
+<div class="wrapper-2">
+  <h2 id="features">THE FEATURES</h2>
   <section class="cards">
     <ul>
       <li>
@@ -77,7 +78,9 @@
       </li>
     </ul>
   </section>
-  <h2>BEHAVIOUR</h2>
+</div>
+<div class="wrapper-3">
+  <h2 id="behaviours">BEHAVIOUR</h2>
   <section class="cards-2">
     <ul>
       <li>
@@ -121,12 +124,13 @@
   <section class="summary">
   <p>Looking at it as a whole, you may think, “It’s so obvious that this is a problem!” but it isn’t. These app were designed to make you addicted, implement features to seem like they care about their users, but just enough so that their in control of your addiction.</p>
   </section>
-<section class="wrapper-footer">
+</div>
+<div class="wrapper-footer">
   <footer role="contentinfo">
-    <a href="index.html" class="hover-logo">
+    <a href="index.html" class="hover-logo" aria-label="Jump to home page">
       <img class="footer-logo" src="images/32-px-logo.png" alt="broken speech bubble logo">
     </a>
-    <p>© Break the Cycle</p>
+    <p>© BREAK THE CYCLE . <a href="#top">Top</a></p>
   </footer>
-</section>
+</div>
 </body>
