@@ -8,7 +8,6 @@
 
 html {
   box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Inter', sans-serif;
   color: #fff;
@@ -20,8 +19,17 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: black;
+}
+
 .skip {
-  visibility: hidden;
+  grid-area: banner;
+  visibilty: hidden;
+}
+
+.skip:hover {
+  visibility: visible;
 }
 
 h1 {
@@ -43,21 +51,23 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-div {
+.skip, .banner-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin: auto;
 }
 
  h2 {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 2.5rem;
-  padding: 0 0 .5rem;
+  padding: 0 0 .5rem 1.5rem;
   margin: 0;
   line-height: 1;
  }
 
+h3 {
+  padding-left: 1.5rem;
+}
 body {
   background-color: black;
   display: grid;
@@ -83,6 +93,8 @@ body {
 .header-logo {
   width: 55px;
   transition: all .5s ease-in-out;
+  left: 1rem;
+  top: .7rem;
 }
 
 .header-logo, .banner-text, nav {
@@ -191,7 +203,7 @@ ol li a {
 }
 
 body section {
-  padding: 0 .7rem;
+  padding: 0 1.5rem;
 }
 
 body > section {
@@ -207,8 +219,8 @@ body > section {
 
 .wrapper-2 {
   background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
-  grid-area: col1;
   background-position: left;
+  grid-area: col1;
 }
 
 .percents {
@@ -219,7 +231,7 @@ body > section {
 
 }
 
-.under-percent {
+.under-percent, .before-percent {
   padding: 0 1rem;
   text-align: center;
   margin: 0;
@@ -230,6 +242,7 @@ body > section {
   text-align: center;
   line-height: 1.2;
   color: #a181da;
+  font-family: 'ZCOOL QingKe HuangYou', cursive
 }
 
 .illustration {
@@ -244,7 +257,6 @@ body > section {
 }
 
 footer {
-  grid-area: footer;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -252,31 +264,96 @@ footer {
 }
 
 .wrapper-footer {
-  background-color: #41376e;
+  background-color:#438b92;
   padding: 0;
   margin: 0;
+  grid-area: footer;
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: .7rem;
   margin: 0 0 1rem;
 }
 
+
 @media only screen and (min-width: 38em) {
 
-  body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "spann spann"
-      "col1 col2"
-      "footer";
-    gap: 1rem;
+  .about-1, .about-2, .conclusion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  .wrapper {
-    grid-area: span;
-    justify-self: center;
+  .about-2 {
+  flex-direction: row-reverse;
+  }
+
+  .about-2 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .about-1 p {
+    padding: 0 1.5rem;
+  }
+
+  .about-1 img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+
+  .conclusion img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .adolescence {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .adolescence img {
+    width: 273px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .adolescence-p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adolescence p {
+    padding: 0 1.5rem;
+  }
+
+  .percent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "col1 col2 col3"
+    "coll1 coll2 coll3";
+    gap: .5rem;
+  }
+
+  .before-percent {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .percents {
+    grid-row: 1;
+    padding: 0;
+  }
+
+  .under-percents {
+    grid-row: 2;
+    padding: 0;
   }
 }
 

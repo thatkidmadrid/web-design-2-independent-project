@@ -10,21 +10,21 @@
 </head>
 
 <body>
-  <div class="skip">
-    <a href="#Navigation">Skip to navigation</a>
-    <a href="#About">Skip to about content</a>
-    <a href="#Adolescence">Skip to adolescence content</a>
-    <a href="#Stats">Skip to statistics content</a>
-  </div>
+  <ul class="skip">
+    <li><a href="#Navigation">Skip to navigation</a></li>
+    <li><a href="#About">Skip to about content</a></li>
+    <li><a href="#Adolescence">Skip to adolescence content</a></li>
+    <li><a href="#Stats">Skip to statistics content</a></li>
+  </ul>
 
-<section class="wrapper">
+<div class="wrapper">
   <header role="banner">
     <a href="index.html" class="hover-logo">
       <img class="header-logo" src="images/64-px-logo.png" alt="broken speech bubble logo">
     </a>
     <div class="banner-text">
       <h1>BREAK THE CYCLE</h1>
-      <p>The fine line between digital connection and mental illness. ONLY MADE MOBILE AND DIDNT RESIZE IMAGES :)</p>
+      <p>The fine line between digital connection and mental illness.</p>
       <a class="button" href="#about" aria-label="Jump to the About Section">Get Started</a>
     </div>
     <nav role="navigation">
@@ -35,58 +35,66 @@
       </ul>
     </nav>
   </header>
-</section>
-<section class="wrapper-2">
+</div>
+<div class="wrapper-2">
   <main role="main">
-    <section id="about">
-      <h2 class="about">ABOUT</h2>
-      <img class="about" src="images/man-holding-phone.jpg" alt="Phone homepage lights a dark room"/>
+    <h2 class="about" id="about">ABOUT</h2>
+    <section class="about-1">
+      <img src="images/man-holding-phone.jpg" alt="Phone homepage lights a dark room"/>
       <p class="abt-description">Social media has grown in popularity throughout the decade and has become a significant part of people’s lives. It is both an escape from reality and a way to connect with others in your life and around the world.</p>
+    </section>
+    <section class="about-2">
       <img src="images/social-media-icons.png" alt="Tiktok, Instagram, and Facebook icons" role="presentation">
       <p>With Instagram, Facebook, and Tiktok growing in popularity, they have brought upon positive experiences and questionable effects on its users. Moreso, users and scientists are questioning the impact social media has on adolescents’ mental, physical, and emotional well-being.</p>
     </section>
-    <section>
-      <h3>Adolescence</h3>
+    <h3>Adolescence</h3>
+    <section class="adolescence">
       <img src="images/teens-looking-at-phones.jpg" alt="three teens lying on their stomachs looking at their phones">
-      <p>During adolescence, there is an increase in social validation and peer evaluation. Social media introduces a new method and experience in indulging in these needs: constant online availability, oversharing personal information (permanently online), and peer feedback through likes, views, and comments.</p>
-      <p>While it seems harmless, it is quite the opposite. Social media has <emphasis>increased</emphasis> the feeling of anxiety, depression, and suicide among adolescents since the introduction of social media on mobile devices.</p>
+      <div class="adolescnece-p">
+        <p>During adolescence, there is an increase in social validation and peer evaluation. Social media introduces a new method and experience in indulging in these needs: constant online availability, oversharing personal information (permanently online), and peer feedback through likes, views, and comments.</p>
+        <p>While it seems harmless, it is quite the opposite. Social media has <emphasis>increased</emphasis> the feeling of anxiety, depression, and suicide among adolescents since the introduction of social media on mobile devices.</p>
+      </div>
     </section>
+    <h3>The Stats</h3>
     <section class="stats">
-      <h3>The Stats</h3>
       <img src="images/group-on-phones.jpg" alt="one male looking at the camera while the people surrounding him are on their phones" role="presentation">
-      <p class="under-percent">Between 2012 and 2015, there was a</p>
-      <h2 class="percents">21%</h2>
-      <p class="under-percent">increase in depression in boys and</p>
-      <h2 class="percents">50%</h2>
-      <p class="under-percent">increase in depression in girls</p>
-      <h2 class="percents">92%</h2>
-      <p class="under-percent">Of teens and young adults owned a smartphone by 2015.</p>
-      <p>But, as smartphone use increased, so did feelings of depression. In a 2017 study with 8th to 12th graders, they found high levels of despressive symptoms increased by</p>
-      <h2 class="percents">33%</h2>
-      <p class="under-percent">between 2010 and 2015.</p>
+      <h4 class="before-percent">Between 2012 and 2015, there was a</h4>
+      <div class="percent-grid">
+        <h2 class="percents">21%</h2>
+        <h4 class="under-percent">increase in depression in boys</h4>
+        <h2 class="percents">50%</h2>
+        <h4 class="under-percent">increase in depression in girls</h4>
+        <h2 class="percents">92%</h2>
+        <h4 class="under-percent">teens & young adults owned a phone by 2015</h4>
+      </div>
       <h3 class="good-quote">And it’s only gotten worse.</h3>
-      <p class="under-percent">Child suicide rates increased by up to</p>
+      <p>As smartphone use increased, so did feelings of depression. In a 2017 study with 8th to 12th graders, they found high levels of despressive symptoms increased by</p>
+      <h2 class="percents">33%</h2>
+      <h4 class="under-percent">between 2010 and 2015.</h4>
+      <h4 class="under-percent">Child suicide rates increased by up to</h4>
       <h2 class="percents">150%</h2>
-      <p class="under-percent">and self-harm by girls ages 10 to 14 <emphasis>nearly tripled</emphasis>. These patterns point to social media.</p>
-      <img class="illustration" src="images/phone-in-face-white.png" alt="An illustration of a male's face being sucked into his phone">
-      <p>Sadly, it is an easy access for youth to experience negative behaviours and ideation. These behaviours include cyberbullying, social exclusion/online conflict, coming across risky content, experiencing comparison, oversharing, and wasting hours on social media.</p>
-      <h3 class="good-quote">Is social media an escape from real life or is real life an escape from social media?</h3>
-    </section>
-    <section>
+      <h4 class="under-percent">and self-harm by girls ages 10 to 14 <emphasis>nearly tripled</emphasis>. These patterns point to social media.</h4>
+      <div class="conclusion">
+        <img class="illustration" src="images/phone-in-face-white.png" alt="An illustration of a male's face being sucked into his phone">
+        <p>Sadly, it is an easy access for youth to experience negative behaviours and ideation. These behaviours include cyberbullying, social exclusion/online conflict, coming across risky content, experiencing comparison, oversharing, and wasting hours on social media.</p>
+    </div>
+    <div class="before-footer">
       <ol>
+          <h3 class="good-quote">Is social media an escape from real life or is real life an escape from social media?</h3>
         <li><a class="button-2" href="the-design.html">The Design</a></li>
         <li><a class="button-2" href="the-solution.html">The Solution</a></li>
       </ol>
-    </section>
+    </div>
   </main>
+</div>
 
-  <section class="wrapper-footer">
+  <div class="wrapper-footer">
     <footer role="contentinfo">
       <a href="index.html" class="hover-logo">
         <img class="footer-logo" src="images/32-px-logo.png" alt="broken speech bubble logo">
       </a>
-      <p>© Break the Cycle</p>
+      <p>© BREAK THE CYCLE</p>
     </footer>
-  </section>
+  </div>
 </body>
 </html>
