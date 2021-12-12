@@ -152,18 +152,19 @@ nav a:hover {
   justify-content: space-between;
 }
 
+
+.cards h3, p {
+  margin: 0;
+}
+
 .cards ul {
   padding: 0;
 
   display: grid;
-  grid-template columns: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "col1";
   gap: 1rem;
-}
-
-.cards h3, p {
-  margin: 0;
 }
 
 /*h3 card headers*/
@@ -197,7 +198,7 @@ nav a:hover {
   padding: 0;
 
   display: grid;
-  grid-template columns: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "col1";
   gap: 1rem;
@@ -265,4 +266,24 @@ footer {
 footer p {
   font-size: .7rem;
   margin: 0 0 1rem;
+}
+
+@media only screen and (min-width: 31.25em) {
+
+  .cards-2 ul, .cards ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "col1 col2";
+    gap: 1rem;
+  }
+
+  .apply-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-2 {
+    flex-grow: 1;
+  }
 }
