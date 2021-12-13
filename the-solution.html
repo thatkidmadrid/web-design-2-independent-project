@@ -5,28 +5,40 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" type="image/jpg" href="images/32-px-black.png">
   <link href="css/the-solution.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@300;400;700&family=VT323&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<section class="wrapper">
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#you">Skip to what you can do</a></li>
+    <li><a href="#companies">Skip to what companies can do</a></li>
+  </ul>
+<div class="wrapper">
+  <header role="banner" id="top">
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="the-design.html">The Design</a></li>
+        <li><a href="the-solution.html">The Solution</a></li>
+      </ul>
+    </nav>
+    <a href="index.html" class="hover-logo">
+      <img class="header-logo" src="images/64-px-logo.png" alt="broken speech bubble logo" aria-label="Jump to homepage">
+    </a>
     <div class="banner-text">
       <h1>THE SOLUTION</h1>
-      <p>lol no this isn't done, sorry</p>
+      <p>Solutions towards a better future for future generations.</p>
     </div>
-    <a href="index.html" class="hover-logo">
-        <img class="header-logo" src="images/64-px-logo.png" alt="broken speech bubble logo">
-      </a>
-      <nav role="navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="the-design.html">The Design</a></li>
-          <li><a href="the-solution.html">The Solution</a></li>
-        </ul>
-      </nav>
   </header>
-</section>
+</div>
+<div class="wrapper-2">
+  <h2 id="you">WHAT YOU CAN DO</h2>
+</div>
+<div class="wrapper-3">
+  <h2 id="companies">WHAT COMPANIES CAN DO</h2>
+</div>
 <div class="wrapper-footer">
   <footer role="contentinfo">
     <a href="index.html" class="hover-logo" aria-label="Jump to home page">
@@ -34,4 +46,5 @@
     </a>
     <p>© BREAK THE CYCLE . <a href="#top">Top</a></p>
   </footer>
+</div>
 </body>

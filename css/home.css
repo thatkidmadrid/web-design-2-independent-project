@@ -1,0 +1,264 @@
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "banner"
+    "col1"
+    "footer";
+  gap: 1rem;
+  min-width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  padding-left: 1.5rem;
+}
+
+.wrapper {
+  background-image: url("../images/teenager-doomscrolling.jpg"); width: 100%; min-height: 700px;
+  grid-area: banner;
+  background-position: center;
+  background-size: cover;
+}
+
+/*top button*/
+.button {
+  background-color: #a10232;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  transition: ease-out .2s;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #438b92;
+  transform: scale(1.1);
+}
+
+ol {
+  margin-left: -3rem;
+}
+
+ol li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+ol li a {
+  padding: 0 3rem;
+}
+
+/*bottom two buttons*/
+.button-2 {
+  background-color: #a10232;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  transition: ease-out .2s;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-2:hover {
+  background-color: #438b92;
+  transform: scale(1.1);
+}
+
+.before-footer {
+  grid-area: col1;
+}
+
+.stats h2 {
+  text-align: center;
+  padding: 0;
+}
+
+body section {
+  padding: 0 1.5rem;
+}
+
+.percents {
+  font-size: 5rem;
+  margin: 0;
+  color: #438b92;
+  padding-bottom: .5rem;
+
+}
+
+.under-percent, .before-percent {
+  padding: 0 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.good-quote {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.2;
+  color: #a181da;
+  font-family: 'ZCOOL QingKe HuangYou', cursive
+}
+
+.illustration {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .about-1, .about-2, .conclusion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-2 {
+  flex-direction: row-reverse;
+  }
+
+  .about-2 img {
+    min-width: 300px;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  .about-1 img {
+    min-width: 300px;
+    min-height: 400px;
+    object-fit: cover;
+  }
+
+  .conclusion img {
+    min-width: 300px;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  .adolescence {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .adolescence img {
+    min-width: 273px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .about-1 p {
+    padding: 0 1.5rem;
+  }
+
+  .adolescence-p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adolescence p {
+    padding: 0 1.5rem;
+  }
+
+  .percent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "col1 col2 col3"
+    "coll1 coll2 coll3";
+    gap: .5rem;
+  }
+
+  .before-percent {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .percents {
+    grid-row: 1;
+    padding: 0;
+  }
+
+  .under-percents {
+    grid-row: 2;
+    padding: 0;
+  }
+
+  .percent-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "col1 col2 col3"
+    "coll1 coll2 coll3";
+    gap: .5rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .wrapper-2 {
+    padding: 0 8rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .wrapper-2 {
+    padding: 0 12rem;
+  }
+
+  .about-1 p, .about-2 p, .conclusion p {
+    padding: 0 8rem;
+  }
+
+  .adolescence-p {
+    padding: 0 8rem;
+  }
+
+  .about-1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .adolescence img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .about-2 img {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
