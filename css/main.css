@@ -21,7 +21,7 @@ body {
 
 a:focus {
   outline: 4px solid #a181da;
-  padding-top: -3rem;
+  padding-top: 0;
 }
 
 .skip-links {
