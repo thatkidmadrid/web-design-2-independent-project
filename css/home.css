@@ -150,7 +150,7 @@ section > img {
   border-radius: 15px;
 }
 
-.icon {
+.illustration {
   margin: 1rem 0;
 }
 
@@ -186,8 +186,8 @@ section > img {
   }
 
   .conclusion img {
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
     object-fit: cover;
   }
 
