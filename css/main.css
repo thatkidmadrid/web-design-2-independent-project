@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   text-size-adjust: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   color: #fff;
   line-height: 1.5;
   scroll-behavior: smooth;
@@ -17,6 +17,8 @@ html {
 
 body {
   background-color: black;
+  background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
+  background-position: left;
 }
 
 a:focus {
@@ -45,7 +47,7 @@ a:focus {
 }
 
 h1 {
-  font-family: 'Bungee', cursive;
+  font-family: Bungee, cursive;
   font-size: 3rem;
   color: #fff;
   margin: 0;
@@ -70,16 +72,16 @@ h1 {
   z-index: 10;
 }
 
- h2 {
+h2 {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 2.5rem;
   margin: 0;
   line-height: 1;
- }
+}
 
- img {
+img {
   width: 100%;
- }
+}
 
 .header-logo {
   width: 55px;
@@ -98,7 +100,7 @@ header {
 
 header#top {
   position: relative;
-  height: 100%
+  height: 100%;
 }
 
 .hover-logo {
@@ -137,11 +139,6 @@ nav a {
 
 nav a:hover {
   color: #438b92;
-}
-
-body {
-  background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
-  background-position: left;
 }
 
 .footer-logo {
