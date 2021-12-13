@@ -62,10 +62,6 @@ a:focus {
   border-color: #fff;
 }
 
-.care {
-  margin: 1em 8em;
-}
-
 .care p {
   font-family: Montserrat, sans-serif;
   font-size: 4.5em;
@@ -74,18 +70,18 @@ a:focus {
   padding-top: 5rem;
 }
 
-.care h3{
+.care h3 {
   font-size: 3.5rem;
 }
 
- .endp p {
-   font-family: Montserrat, sans-serif;
-   font-size: 4.5em;
-   color: #58585a;
-   text-align: left;
-   padding-top: 2rem;
-   margin: 1em 3em;
- }
+.endp p {
+  font-family: Montserrat, sans-serif;
+  font-size: 4.5em;
+  color: #58585a;
+  text-align: left;
+  padding-top: 2rem;
+  margin: 1em 3em;
+}
 
 .about p {
   font-family: Montserrat, sans-serif;
@@ -134,13 +130,15 @@ h1 {
   padding-bottom: 3rem;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .about-content {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: top;
-display: grid;
-grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-content p {
@@ -266,16 +264,41 @@ ul li {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 1em 8em;
 }
 
-@media only screen and (max-width: 38em) {
-ol {
-    grid-template-columns: 1fr 1fr;
-}
-}
+@media only screen and (min-width: 25em) {
 
-@media only screen and (max-width: 25em) {
-ol {
+  ol {
     grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
 }
+
+@media only screen and (min-width: 38em) {
+
+  ol {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  ol {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
 }
