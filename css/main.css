@@ -17,18 +17,23 @@ html {
   margin: 0;
   padding: 0;
   color: white;
+  font-size: .5rem;
+}
+
+.skip-links {
+  display: none;
 }
 
 nav {
   display: flex;
-  padding: 1% 6%;
+  padding: .5% 6%;
   justify-content: space-between;
   align-items: center;
   background-color: #58585a;
 }
 
 nav img {
-  width: 80px;
+  width: 50px;
 }
 
 .nav-links {
@@ -39,7 +44,7 @@ nav img {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 15px;
   position: relative;
 }
 
@@ -47,7 +52,7 @@ nav img {
   color: white;
   text-decoration: none;
   font-family: Montserrat, sans-serif;
-  font-size: 1.5em;
+  font-size: 3.5em;
   font-weight: bold;
 }
 
@@ -57,20 +62,38 @@ a:focus {
   border-color: #fff;
 }
 
+.care {
+  margin: 1em 8em;
+}
+
 .care p {
   font-family: Montserrat, sans-serif;
-  font-size: 1.5em;
+  font-size: 4.5em;
   color: #58585a;
   text-align: left;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
+
+.care h3{
+  font-size: 3.5rem;
+}
+
+ .endp p {
+   font-family: Montserrat, sans-serif;
+   font-size: 4.5em;
+   color: #58585a;
+   text-align: left;
+   padding-top: 2rem;
+   margin: 1em 3em;
+ }
 
 .about p {
   font-family: Montserrat, sans-serif;
-  font-size: 1.5em;
+  font-size: 4.5em;
   color: #58585a;
   text-align: left;
   padding-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .banner {
@@ -105,10 +128,28 @@ h1 {
 .banner p {
   font-family: Montserrat, sans-serif;
   color: #58585a;
-  font-size: 4rem;
+  font-size: 3rem;
   justify-content: flex-start;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.about-content {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: top;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.about-content p {
   margin-top: 5rem;
-  padding-bottom: 4rem;
+  margin-left: 5rem;
+}
+
+.about h2 {
+  font-size: 6rem;
 }
 
 main {
@@ -170,9 +211,13 @@ ul li {
 .footer {
   background-color: #58585a;
   font-family: Montserrat, sans-serif;
-  font-size: 1em;
+  font-size: 4em;
   padding: 1rem;
   padding-left: 3rem;
+}
+
+.footer p {
+  font-size: 2rem;
 }
 
 .btn {
@@ -186,7 +231,7 @@ ul li {
   border-color: #58585a;
   margin: .25em;
   margin-top: 3em;
-  font-size: 2em;
+  font-size: 5em;
 }
 
 .btn:hover {
@@ -221,4 +266,16 @@ ul li {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+@media only screen and (max-width: 38em) {
+ol {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen and (max-width: 25em) {
+ol {
+    grid-template-columns: 1fr;
+}
 }
