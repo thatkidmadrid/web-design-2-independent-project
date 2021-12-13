@@ -24,7 +24,6 @@ h2 {
   padding: 0 2rem;
 }
 
-/*the features*/
 .cards li {
   color: white;
   margin: auto;
@@ -56,13 +55,11 @@ h2 {
   gap: 1rem;
 }
 
-/*h3 card headers*/
 .cards h3 {
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
   line-height: 1;
 }
-
 
 .cards-2 h3 {
   font-family: 'VT323', monospace;
@@ -70,7 +67,6 @@ h2 {
   line-height: 1;
 }
 
-/*trends/behaviour*/
 .cards-2 li {
   color: white;
   margin: auto;
@@ -113,15 +109,13 @@ body > section {
 }
 
 .wrapper {
-  background-image: url("../images/girl-looking-at-phone.jpg"); width: 100%; min-height: 700px;
+  background-image: url("../images/girl-looking-at-phone.jpg"); width: 100%; height: 700px;
   grid-area: banner;
   background-position: center;
   background-size: cover;
 }
 
-.wrapper-2, .wrapper-3 {
-  background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
-  background-position: left;
+.wrapper-2 {
   grid-area: col1;
 }
 
@@ -153,6 +147,11 @@ body > section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.button-2:hover {
+  background-color: #438b92;
+  transform: scale(1.1);
 }
 
 .good-quote > a {

@@ -1,13 +1,4 @@
 body {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "banner"
-    "col1"
-    "coll1"
-    "footer";
-  gap: 1rem;
   min-width: 300px;
   margin: 0;
   padding: 0;
@@ -19,6 +10,16 @@ h2 {
 
 section ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+section > h3 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: .2rem;
 }
 
 .cards {
@@ -29,36 +30,47 @@ section ul {
 }
 
 section a {
-  color: #a181da;
+  color: #050255;
 }
 
 img {
   width: 100%;
 }
 
-p {
+h3 {
   margin: 0;
 }
 
 .wrapper {
-  background-image: url("../images/pexels-cottonbro-4881648-2.jpg"); width: 100%; min-height: 700px;
+  background-image: url("../images/pexels-cottonbro-4881648.jpg"); width: 100%; height: 700px;
   grid-area: banner;
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "col1"
+    "coll1";
+    gap: 1rem;
+}
+
+.wrapper-2 {
+  grid-area: col1;
+  padding: 0 .7rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .wrapper-3 {
   grid-area: coll1;
+  padding: 0 .7rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-@media only screen and (min-width: 38em) {
-
-}
-
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 90em) {
-
+.wrapper-2 > h2 {
+  padding-top: 1rem;
 }

@@ -12,34 +12,39 @@ html {
 }
 
 body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "banner"
-    "col1"
-    "footer";
-  gap: 1rem;
   min-width: 300px;
   margin: 0;
   padding: 0;
 }
 
-h3 {
-  padding-left: 1.5rem;
+main > h2 {
+  padding-top: 1rem;
 }
 
 h2 {
   padding: 0 0 .5rem 1.5rem;
 }
 
+.about-1 img, .adolescence img {
+  min-width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-2 img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
 .wrapper {
-  background-image: url("../images/pexels-zydeaosika-4138976.jpg"); width: 100%; min-height: 700px;
-  grid-area: banner;
+  background-image: url("../images/pexels-zydeaosika-4138976.jpg"); width: 100%; height: 700px;
   background-position: center;
   background-size: cover;
 }
 
-/*top button*/
 .button {
   background-color: #a10232;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -62,10 +67,6 @@ h2 {
   transform: scale(1.1);
 }
 
-ol {
-  margin-left: -3rem;
-}
-
 ol li {
   list-style-type: none;
   display: flex;
@@ -74,7 +75,10 @@ ol li {
   margin-bottom: 1.2rem;
 }
 
-/*bottom two buttons*/
+.before-footer ol {
+  padding: 0;
+}
+
 .button-2 {
   background-color: #a10232;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -109,7 +113,6 @@ ol li {
 }
 
 body section {
-  padding: 0 1.5rem;
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -139,7 +142,7 @@ main {
   text-align: center;
   line-height: 1.2;
   color: #a181da;
-  font-family: 'ZCOOL QingKe HuangYou', cursive
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 section > img {
@@ -147,11 +150,17 @@ section > img {
   border-radius: 15px;
 }
 
-.illustration {
+.icon {
   margin: 1rem 0;
 }
 
 @media only screen and (min-width: 38em) {
+
+  .wrapper {
+    background-image: url("../images/pexels-zydeaosika-4138976.jpg"); width: 100%; height: 700px;
+    background-position: center;
+    background-size: cover;
+  }
 
   .about-1, .about-2, .conclusion {
     display: flex;
