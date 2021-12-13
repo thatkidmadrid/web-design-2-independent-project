@@ -33,7 +33,7 @@ h2 {
 }
 
 .wrapper {
-  background-image: url("../images/teenager-doomscrolling.jpg"); width: 100%; min-height: 700px;
+  background-image: url("../images/pexels-zydeaosika-4138976.jpg"); width: 100%; min-height: 700px;
   grid-area: banner;
   background-position: center;
   background-size: cover;
@@ -144,6 +144,7 @@ main {
 
 section > img {
   margin: 0;
+  border-radius: 15px;
 }
 
 .illustration {

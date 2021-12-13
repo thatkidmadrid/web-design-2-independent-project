@@ -13,16 +13,31 @@ body {
   padding: 0;
 }
 
+h2 {
+  padding-left: 2rem;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+.cards {
+  background-color: #a10232;
+  padding: .5rem 0;
+  margin: 1rem 2rem;
+  border-radius: 15px;
+}
+
+section a {
+  color: #a181da;
+}
+
 img {
   width: 100%;
 }
 
 p {
   margin: 0;
-}
-
-body section {
-  padding: 0 1.5rem;
 }
 
 .wrapper {
