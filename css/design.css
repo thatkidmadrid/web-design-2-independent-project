@@ -30,6 +30,10 @@ body {
   margin: 0;
 }
 
+.cards p, .cards-2 p {
+  flex-grow: 1;
+}
+
 .cards ul {
   padding: 0;
 
@@ -115,7 +119,7 @@ body > section {
   margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 31.25em) {
+@media only screen and (min-width: 38em) {
 
   .cards-2 ul, .cards ul {
     display: grid;
@@ -132,5 +136,24 @@ body > section {
 
   .cards-2 li, .cards li {
     height: 100%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .cards ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "col1 col2 col3 col4";
+    gap: 1rem;
+  }
+
+  .cards-2 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "col1 col2 col3";
+    gap: 1rem;
+  }
   }
 }
