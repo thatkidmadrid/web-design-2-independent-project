@@ -79,6 +79,9 @@ h1 {
   line-height: 1;
  }
 
+h3 {
+  padding-left: 1.5rem;
+}
 body {
   background-color: black;
   display: grid;
@@ -86,7 +89,6 @@ body {
   grid-template-areas:
     "banner"
     "col1"
-    "coll1"
     "footer";
   gap: 1rem;
   min-width: 300px;
@@ -107,11 +109,6 @@ body {
 
 .header-logo, .banner-text, nav {
   position: absolute;
-}
-
-
-.hover-logo:hover img {
-  transform: scale(1.1);
 }
 
 nav {
@@ -144,92 +141,34 @@ nav a:hover {
   color: #438b92;
 }
 
-/*the features*/
-.cards li {
-  color: white;
-  margin: auto;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 8px;
-  background-color: #a10232;
+ol {
+  margin-left: -3rem;
+}
 
+ol li {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
 
-
-.cards h3, p {
-  margin: 0;
+ol li a {
+  padding: 0 3rem;
 }
 
-.cards ul {
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "col1";
-  gap: 1rem;
-}
-
-/*h3 card headers*/
-.cards h3 {
-  font-family: 'VT323', monospace;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.cards-2 h3 {
-  font-family: 'VT323', monospace;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-/*trends/behaviour*/
-.cards-2 li {
-  color: white;
-  margin: auto;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 8px;
-  background-color: #050255;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.cards-2 ul {
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "col1";
-  gap: 1rem;
-}
-
-.cards-2 h3, p {
-  margin: 0;
-}
-
-li p a {
-  color: #a181da;
+.hover-logo:hover img {
+  transform: scale(1.1);
 }
 
 body section {
-  padding: 0 .7rem;
-}
-
-body > section {
-  padding-top: 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .wrapper {
-  background-image: url("../images/girl-looking-at-phone.jpg"); width: 100%; min-height: 700px;
+  background-image: url("../images/pexels-cottonbro-4881648-2.jpg"); width: 100%; min-height: 700px;
   grid-area: banner;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -239,13 +178,30 @@ body > section {
   grid-area: col1;
 }
 
-.wrapper-3, {
-  grid-area: coll1;
+.percents {
+  font-size: 5rem;
+  margin: 0;
+  color: #438b92;
+  padding-bottom: .5rem;
+
 }
 
+.under-percent, .before-percent {
+  padding: 0 1rem;
+  text-align: center;
+  margin: 0;
+}
 
-.summary {
-  margin-bottom: 1rem;
+.good-quote {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.2;
+  color: #a181da;
+  font-family: 'ZCOOL QingKe HuangYou', cursive
+}
+
+.illustration {
+  margin: 1rem 0;
 }
 
 .footer-logo {
@@ -274,24 +230,8 @@ footer p {
   margin: 0 0 1rem;
 }
 
-@media only screen and (min-width: 31.25em) {
 
-  .cards-2 ul, .cards ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "col1 col2";
-    gap: 1rem;
-  }
-
-  .apply-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cards-2 li, .cards li {
-    height: 100%;
-  }
+@media only screen and (min-width: 38em) {
 
   nav ul {
     flex-direction: row;
@@ -303,8 +243,47 @@ footer p {
 }
 
 @media only screen and (min-width: 60em) {
+  .wrapper-2 {
+    padding: 0 8rem;
+  }
 
   nav a {
     padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .wrapper-2 {
+    padding: 0 12rem;
+  }
+
+  .adolescence-p {
+
+  }
+
+  .about-1 p, .about-2 p, .conclusion p {
+    padding: 0 8rem;
+  }
+
+  .adolescence-p {
+    padding: 0 8rem;
+  }
+
+  .about-1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .adolescence img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .about-2 img {
+    min-width: 300px;
+    height: 300px;
+    object-fit: cover;
   }
 }

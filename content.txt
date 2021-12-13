@@ -16,37 +16,6 @@ Sadly, it is an easy access for youth to experience negative behaviours and idea
 
 --
 
-HISTORY OF SOCIAL
-As seen on this website: https://dewzilla.com/a-brief-history-of-social-media/#timeline-of-social-media
-1973: Talkomatic is created by Dave Wooly and Douglas Brown at the University of Illinois. It was a multi-user chat room with limited features.
-1997: Andrew Weinreich created SixDegrees.com.
-1999: Jerry Yang and David Filo established Yahoo! Messenger.
-1999: Microsoft creates MSN Messenger to offer new features like video calling.
-1999: Brad Fitzpatrick created LiveJournal; a platform for blogging.
-2001: SixDegrees.com shuts down.
-2001: Windows Messenger, the integrated version of MSN Messenger is out.
-2002: Friendster is born; a place for gaming and social networking. it’s a brainchild of Jonathan Abrams.
-2003: Reid Hoffman and some of his coworkers introduce LinkedIn.
-2003: Thomas Anderson founds Myspace.
-2003: Niklas Zennström and the Dane create Janus Friis Skype.
-2004: Mark Zuckerberg starts the legendary Facebook.
-2005: Aaron Swartz introduces Reddit.
-2006: Twitter is out. Jack Dorsey founds this platform.
-2006: Pavel Durov founds VK (VKontakte).
-2010: Ben Silbermann establishes Pinterest.
-2010: Kevin Systrom introduces Instagram; one of the most popular photo-sharing platforms ever is launched.
-2011: Evan Spiegel founds Snapchat.
-2011: Justin Kan introduces Twitch, a live-streaming platform for gamers.
-2012: Sean Rad launches Tinder, one of the most favorite dating apps ever.
-2012: Instagram is owned by Facebook for 1 billion dollars in cash and stock.
-2013: Larry Page and Sergey Brin who invented Google, invent Google Hangouts, too.
-2014: Alex Zhu and Luyu Yang invent a lip-syncing app called musical.ly.
-2015: Discord starts.
-2017: ByteDance owns Musical.ly for 1 billion dollars.
-2017: a platform for short video sharing called TikTok is out.
-
---
-
 THE DESIGN
 
 Ephemeral content is content that is only available for a limited time and then vanishes. People’s priorities and consumption have shifted (more consumption, fewer priorities) so this works perfectly for the average user. Stories are becoming extremely popular for personal and business accounts. Looking at it with a wider lens, it’s feeding into the FOMO culture -- if a user isn’t frequently checking the app, they’ll miss out on important news or their idol’s posts, further promoting longer periods of interactions on their apps.

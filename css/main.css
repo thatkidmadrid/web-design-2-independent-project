@@ -58,9 +58,25 @@ h1 {
 }
 
 .banner-text {
+  grid-area: banner;
   min-width: 280px;
   text-align: center;
-  align-self: center;
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  height: 700px;
+  width: 100%;
+  padding: 0 .5rem;
+}
+
+.banner-text a {
+  width: 280px;
+  align-items: center;
+  margin: 0 auto;
 }
 
  h2 {
@@ -101,6 +117,10 @@ body {
 
 .header-logo, .banner-text, nav {
   position: absolute;
+}
+
+header {
+  grid-area: banner;
 }
 
 nav {
@@ -157,7 +177,6 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-/*bottom two buttons*/
 ol {
   margin-left: -3rem;
 }
@@ -174,6 +193,7 @@ ol li a {
   padding: 0 3rem;
 }
 
+/*bottom two buttons*/
 .button-2 {
   background-color: #a10232;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -194,6 +214,10 @@ ol li a {
 .button-2:hover {
   background-color: #438b92;
   transform: scale(1.1);
+}
+
+.before-footer {
+  grid-area: col1;
 }
 
 .hover-logo:hover img {
@@ -221,6 +245,7 @@ body section {
   background-position: left;
   grid-area: col1;
 }
+
 
 .percents {
   font-size: 5rem;
@@ -364,11 +389,23 @@ footer p {
     "coll1 coll2 coll3";
     gap: .5rem;
   }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav a {
+    padding: 0 .5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
   .wrapper-2 {
     padding: 0 8rem;
+  }
+
+  nav a {
+    padding: 0 1rem;
   }
 }
 
@@ -403,7 +440,6 @@ footer p {
 
   .about-2 img {
     min-width: 300px;
-    height: 300px;
-    object-fit: cover;
+    min-height: 300px;
   }
 }
