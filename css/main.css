@@ -277,6 +277,14 @@ ul li {
     font-size: 5rem;
   }
 
+  .care ol {
+    grid-template-columns: 1fr;
+  }
+
+  .adopt ol {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -287,6 +295,14 @@ ul li {
 
   h1 {
     font-size: 8rem;
+  }
+
+  .care ol {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .adopt ol {
+    grid-template-columns: 1fr 1fr;
   }
 
 }
