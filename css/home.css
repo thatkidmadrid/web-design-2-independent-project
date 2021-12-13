@@ -28,6 +28,10 @@ h3 {
   padding-left: 1.5rem;
 }
 
+h2 {
+  padding: 0 0 .5rem 1.5rem;
+}
+
 .wrapper {
   background-image: url("../images/teenager-doomscrolling.jpg"); width: 100%; min-height: 700px;
   grid-area: banner;
@@ -70,10 +74,6 @@ ol li {
   margin-bottom: 1.2rem;
 }
 
-ol li a {
-  padding: 0 3rem;
-}
-
 /*bottom two buttons*/
 .button-2 {
   background-color: #a10232;
@@ -98,7 +98,9 @@ ol li a {
 }
 
 .before-footer {
-  grid-area: col1;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
 }
 
 .stats h2 {
@@ -108,6 +110,14 @@ ol li a {
 
 body section {
   padding: 0 1.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 0 1.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .percents {
@@ -130,6 +140,10 @@ body section {
   line-height: 1.2;
   color: #a181da;
   font-family: 'ZCOOL QingKe HuangYou', cursive
+}
+
+section > img {
+  margin: 0;
 }
 
 .illustration {
@@ -245,20 +259,9 @@ body section {
     padding: 0 8rem;
   }
 
-  .about-1 img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-  }
-
-  .adolescence img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
-
-  .about-2 img {
-    min-width: 300px;
-    min-height: 300px;
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
   }
 }

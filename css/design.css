@@ -12,6 +12,18 @@ body {
   padding: 0;
 }
 
+h2 {
+  text-align: center;
+  padding: 0;
+}
+
+.illustration {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 0 2rem;
+}
+
 /*the features*/
 .cards li {
   color: white;
@@ -92,6 +104,8 @@ li p a {
 
 body section {
   padding: 0 .7rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 body > section {
@@ -105,7 +119,7 @@ body > section {
   background-size: cover;
 }
 
-.wrapper-2 {
+.wrapper-2, .wrapper-3 {
   background-image: url("../images/glitch-body-background.jpg"); width: 100%; height: 100%;
   background-position: left;
   grid-area: col1;
@@ -115,8 +129,39 @@ body > section {
   grid-area: coll1;
 }
 
-.summary {
+.good-quote {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.2;
+  color: #a181da;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
   margin-bottom: 1rem;
+}
+
+.button-2 {
+  background-color: #a10232;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  transition: ease-out .2s;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.good-quote > a {
+  font-size: 1.5rem;
+}
+
+.button-2 {
+  padding: 0 50px;
+  margin: 1rem auto;
 }
 
 @media only screen and (min-width: 38em) {
@@ -154,6 +199,5 @@ body > section {
     grid-template-areas:
       "col1 col2 col3";
     gap: 1rem;
-  }
   }
 }
