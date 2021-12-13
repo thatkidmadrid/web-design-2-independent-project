@@ -42,7 +42,9 @@ h3 {
 }
 
 .wrapper {
-  background-image: url("../images/pexels-cottonbro-4881648.jpg"); width: 100%; height: 700px;
+  background-image: url("../images/pexels-cottonbro-4881648.jpg");
+  width: 100%;
+  height: 700px;
   grid-area: banner;
   background-position: center;
   background-size: cover;
