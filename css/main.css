@@ -134,7 +134,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #fff;
-  font-family: VT323, monospace;
+  font-family: "VT323", monospace;
   font-size: 1.7rem;
   line-height: 1.2;
 }
