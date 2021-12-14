@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <ul class="skip-links" tabindex="0">
+  <ul class="skip-links">
     <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to main content</a></li>
   </ul>
   <div class="wrapper">
     <header role="banner" id="top">
-      <nav role="navigation" id="nav">
+      <nav role="navigation" id="nav" tabindex="0">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="the-design.html" class="current">The Design</a></li>
@@ -32,7 +32,7 @@
       </div>
     </header>
   </div>
-  <div class="wrapper-2" role="main" id="main">
+  <div class="wrapper-2" role="main" id="main" tabindex="-1">
     <i class="icon">
       <svg><use xlink:href="images/illustration-icons.svg#abyss"</use></svg>
     </i>
