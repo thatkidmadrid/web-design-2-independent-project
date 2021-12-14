@@ -169,6 +169,10 @@ section > p {
   margin: 1rem auto;
 }
 
+.wrapper-2 svg {
+  width: 100%;
+}
+
 @media only screen and (min-width: 38em) {
 
   .cards-2 ul, .cards ul {
