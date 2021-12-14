@@ -156,8 +156,24 @@ section > img {
   margin: 1rem 0;
 }
 
-svg {
+.conclusion svg {
   width: 100%;
+}
+
+.conclusion i {
+  height: 17em;
+}
+
+.conclusion svg {
+  height: 100%;
+}
+
+.about-2 svg {
+  height: 100%;
+}
+
+.about-2 i {
+  height: 20em;
 }
 
 @media only screen and (min-width: 38em) {

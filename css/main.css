@@ -170,6 +170,26 @@ footer p {
   margin: 0 0 1rem;
 }
 
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.conclusion .icon,
+.about2 .icon,
+.wrapper-2 .icon,
+.wrapper-3 .icon {
+  height: 20em;
+}
+
+.conclusion .icon svg,
+.about2 .icon svg,
+.wrapper-2 .icon svg,
+.wrapper-3 .icon svg {
+  height: 100%;
+  width: 100%;
+}
+
 @media only screen and (min-width: 31.25em) {
 
   nav ul {
@@ -178,6 +198,14 @@ footer p {
 
   nav a {
     padding: 0 .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .conclusion .icon svg, .about2 .icon svg {
+    width: auto;
   }
 
 }
