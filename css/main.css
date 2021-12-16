@@ -56,8 +56,8 @@ nav img {
   font-weight: bold;
 }
 
-a:hover,
-a:focus {
+.nav-links a:hover,
+.navlinks a:focus {
   background-color: #d2d3d4;
   border-color: #fff;
 }
@@ -68,6 +68,15 @@ a:focus {
   color: #58585a;
   text-align: left;
   padding-top: 5rem;
+}
+
+article img {
+  max-width: 300px;
+  padding: 3em 2em;
+}
+
+article h2 {
+  padding: 0 2em;
 }
 
 .care h3 {
@@ -175,13 +184,13 @@ a {
 
 ol {
   list-style: none;
-  padding: 0;
+  padding: 2rem;
   margin: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 8rem;
+  gap: 12rem;
 }
 
 ol li {
@@ -267,6 +276,16 @@ ul li {
   margin: 1em 8em;
 }
 
+.care p {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.adopt h2 {
+padding: 4rem 2rem 4rem 2rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   ol {
@@ -283,6 +302,10 @@ ul li {
 
   .adopt ol {
     grid-template-columns: 1fr;
+  }
+
+  .care h3 {
+    font-size: 2.5rem;
   }
 
 }
@@ -315,6 +338,10 @@ ul li {
 
   h1 {
     font-size: 8rem;
+  }
+
+  .care h3 {
+    font-size: 3rem;
   }
 
 }
