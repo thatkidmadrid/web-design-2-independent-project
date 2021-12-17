@@ -305,6 +305,10 @@ ul li {
     font-size: 2.5rem;
   }
 
+  .nav-links {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -325,6 +329,14 @@ ul li {
     grid-template-columns: 1fr 1fr;
   }
 
+  .nav-links {
+    display: contents;
+  }
+
+  .hammy {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -341,4 +353,10 @@ ul li {
     font-size: 3rem;
   }
 
-}
+  .nav-links {
+    display: contents;
+  }
+
+  .hammy {
+    display: none;
+  }
